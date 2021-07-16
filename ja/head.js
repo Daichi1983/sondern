@@ -1,0 +1,12 @@
+﻿document.write('<!-- Global site tag (gtag.js) - Google Analytics -->');
+document.write('<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42613638-11"></script>');
+document.write('<script>');
+document.write('  window.dataLayer = window.dataLayer || [];');
+document.write('  function gtag(){dataLayer.push(arguments);}');
+document.write("  gtag('js', new Date());");
+document.write("  gtag('config', 'UA-42613638-11');");
+document.write('</script>');
+document.write('<link rel="stylesheet" href="/css/luminous-basic.min.css">');
+document.write('<script src="/js/luminous.min.js"></script>');
+document.write('<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">');
+document.write('<title>関口存男文例集電子版</title>');

@@ -1,0 +1,15 @@
+﻿document.write('<nav aria-label="Page navigation example">');
+document.write('<ul class="pagination justify-content-center pagination-lg">');
+document.write('<li class="page-item">');
+document.write('<a class="page-link" href="'+previouspage+'" aria-label="Previous">');
+document.write('<span aria-hidden="true">&laquo;</span>');
+document.write('</a>');
+document.write('</li>');
+document.write('<li class="page-item"><a class="page-link" href="'+uppage+'">&uarr;</a></li>');
+document.write('<li class="page-item">');
+document.write('<a class="page-link" href="'+nextpage+'" aria-label="Next">');
+document.write('<span aria-hidden="true">&raquo;</span>');
+document.write('</a>');
+document.write('</li>');
+document.write('</ul>');
+document.write('</nav>');
