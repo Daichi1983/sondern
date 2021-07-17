@@ -1,0 +1,198 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+
+<!-- head start -->
+
+<script type="text/javascript" src="../head.js"></script>
+
+<!-- head end -->
+
+
+
+  </head>
+  <body>
+
+
+<!-- get file name start -->
+
+<script type="text/javascript">
+var url = window.location.href;
+// 拡張子無しで
+var filename = url.match(".+/(.+?)\.[a-z]+([\?#;].*)?$")[1];
+
+
+//キー押下時に関数pageMove()を呼び出す
+document.onkeydown = pageMove;
+var uppage, previouspage, nextpage;
+
+uppage = "../";
+previouspage = "../000/l001-l002.html";
+nextpage = "s0002.html";
+
+function pageMove()
+{
+  if (event.keyCode == 37)  //「←」が押されたか確認
+  {
+    location.href = previouspage;
+  }
+  if (event.keyCode == 38)  //「↑」が押されたか確認
+  {
+    location.href = uppage;
+  }
+  if (event.keyCode == 39)  //「→」が押されたか確認
+  {
+    location.href = nextpage;
+  }
+}
+
+</script>
+
+<!-- get file name end -->
+
+
+<!-- get title start -->
+
+<script type="text/javascript" src="../title.js"></script>
+
+<!-- get title end -->
+
+
+<!-- navigation bar start -->
+
+
+<script type="text/javascript" src="../navigation_bar.js"></script>
+
+
+<script>
+  (function() {
+    var cx = '004961374609038470712:wdk2pfiobea';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>
+</nav>
+
+
+<!-- navigation bar end -->
+
+
+
+<!-- breadcrumb start -->
+
+<script type="text/javascript" src="breadcrumb.js"></script>
+
+<!-- breadcrumb end -->
+
+
+
+<!-- pagination start -->
+
+<script type="text/javascript" src="../pagination.js"></script>
+
+<!-- pagination end -->
+
+
+
+<!-- main manu start -->
+
+<script type="text/javascript">
+document.write('<script type="text/javascript" src="js\/' + filename + '.js"><\/script>');
+</script>
+
+<div class="container">
+
+<div class="tab_change">
+  <!-- タブボタン部分 -->
+  <ul class="nav nav-tabs" style="list-style: none;">
+    <li class="nav-item">
+      <a href="#tab1" class="nav-link active" data-toggle="tab">原本</a>
+    </li>
+    <li class="nav-item">
+      <a href="#tab2" class="nav-link" data-toggle="tab">翻刻</a>
+    </li>
+  </ul>
+
+  <!--タブのコンテンツ部分-->
+  <div class="tab-content">
+    <div id="tab1" class="tab-pane active">
+
+      <a href="../../img/001/s0001.gif" class="luminous"><img src="../../img/001/s0001.gif" alt="" class="mw-100"></a>
+
+
+<br><br><a href="#" onclick="javascript:window.history.back(-1);return false;">Back</a>
+
+    </div>
+    <div id="tab2" class="tab-pane">
+<h2>固有名詞でもあり普通名詞でもあり:</h2>
+<ol>
+<li>平原名（地理）→</li>
+<li>帝王名</li>
+<li>風名</li>
+<li>人名</li>
+</ol>
+<h2 style="margin-top: 2em;">平原</h2>
+<p>Die Pampas. Die Llianos. Die Steppe. Tundra, -en. Wüste,</p>
+<ol>
+<li>Die Gauchos reiten tagelang über die <u>Llianos</u>.<br>南米アマゾン以北の平原</li>
+</ol>
+<p>ヤノス（中）<br>ジャノス（南）<br>リャノス（北）</p>
+
+<br><br><a href="#" onclick="javascript:window.history.back(-1);return false;">Back</a>
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<!-- main manu end -->
+
+
+
+<!-- pagination start -->
+
+<script type="text/javascript" src="../pagination.js"></script>
+
+<!-- pagination end -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<!-- footer start -->
+
+<script type="text/javascript" src="../footer.js"></script>
+
+<!-- footer end -->
+
+
+
+<script>
+var luminousTrigger = document.querySelector('.luminous');
+if( luminousTrigger !== null ) {
+    new Luminous(luminousTrigger);
+}
+var options = {
+  caption: function (trigger) {
+    return trigger.querySelector('img').getAttribute('alt');
+  },
+}
+var luminousTrigger = document.querySelectorAll('.luminous');
+</script>
+
+  </body>
+</html>

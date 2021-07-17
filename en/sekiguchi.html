@@ -1,0 +1,183 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+
+<!-- head start -->
+
+<script type="text/javascript" src="head.js"></script>
+
+<!-- head end -->
+
+
+
+  </head>
+  <body>
+
+
+<!-- get file name start -->
+
+<script type="text/javascript">
+var url = window.location.href;
+// without kakuchoshi
+var filename = url.match(".+/(.+?)\.[a-z]+([\?#;].*)?$")[1];
+
+
+//call pageMove() when a key is called
+document.onkeydown = pageMove;
+var uppage, previouspage, nextpage;
+
+uppage = "../";
+previouspage = "../";
+nextpage = "000/l001-l002.html";
+
+function pageMove()
+{
+  if (event.keyCode == 37)  //←
+  {
+    location.href = previouspage;
+  }
+  if (event.keyCode == 38)  //↑
+  {
+    location.href = uppage;
+  }
+  if (event.keyCode == 39)  //→
+  {
+    location.href = nextpage;
+  }
+}
+
+</script>
+
+<!-- get file name end -->
+
+
+<!-- get title start -->
+
+<script type="text/javascript" src="title.js"></script>
+
+<!-- get title end -->
+
+
+<!-- navigation bar start -->
+
+
+<script type="text/javascript" src="navigation_bar.js"></script>
+
+
+<script>
+  (function() {
+    var cx = '004961374609038470712:wdk2pfiobea';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>
+</nav>
+
+
+<!-- navigation bar end -->
+
+
+
+<!-- breadcrumb start -->
+
+<script type="text/javascript" src="breadcrumb.js"></script>
+
+<!-- breadcrumb end -->
+
+
+
+<!-- pagination start -->
+
+<script type="text/javascript" src="pagination.js"></script>
+
+<!-- pagination end -->
+
+
+<!-- main manu start -->
+
+<div class="container">
+<a href="../img/sekiguchi.jpg" class="luminous"><img src="../img/sekiguchi.jpg" alt="Tsugio Sekiguchi" class="mw-100" style="float:right;margin-left:1em;"></a>
+<h2>Tsugio Sekiguchi</h2>
+<p>Tsugio Sekiguchi (関口存男; November 21, 1894 - July 25, 1958) was a Japanese linguist and author of many books on German grammar, finally he developed the meaning form theory.</p>
+<p>He started to learn German when had entered into Osaka Junior Army School at 14 years old. He got pleurisy just after he graduated from Imperial Japanese Army Academy and quitted the army. As a result, he decided to set up for a scholar of German Language. He constructed his original grammatical system called Sekiguchi grammar or meaning form theory.</p>
+
+<h2>Manuscript</h2>
+<p>He collected examples of actual language use (manuscript) for 30 years, 25,000 pages in total. He wanted to burn the manuscript, but many researchers including Eugenio Coseriu find the value of manuscript. Thanks to Ikuya, Tsugio's eldest son, it still preserved. In this website, I am to digitalize, decipher and make it open public.</p>
+
+<h2>Meaning Form Theory</h2>
+<p>Sekiguchi constructed his original grammatical system, Meaning Form Theory (意味形態論, Imi Keitai Ron). </p>
+
+<blockquote class="blockquote">
+<p>Wenn die Nase der Kleopatra um einen Witz kürzer gewesen wäre, dann würde die Weltgeschihite einen ganz andern Varlauf genommen haben, dann wäre vielleicht der Weltkrieg nicht ausgebrochen.</p>
+<p>Cleopatra's nose, had it been shorter, the whole face of the world would have been changed.</p>
+</blockquote>
+<p>"um einen Witz kürzer" (for a wit shorter), this expression would like to express "a little" shorter. There are many ways to express "a little" in German: um ein Haar (for a hair), um einen Schatten (for a shadow), um eine Idee (for an idea), um ein Atom (for an atom), um eine Molekel (for a molecure), or um ein Nichts (for a nothing).</p>
+<p>The sense of all these expressions is same, "a little". The Meaning Form is the characteristic habit which each language contains.</p>
+<h2>Bibliography</h2>
+<p>
+1894, Born in Himeji city, Hyogo Prefecture<br />
+1913, Graduated from the Military Preparatory School (Rikugun Yonen Gakko)<br />
+1915, Graduated from the Imperial Japanese Army Academy<br />
+1916, Entered into Sophia University<br />
+1917, Entered into Athenee Francais<br />
+1918, Professor of French Language, Athenee Francais<br />
+1918, Professor of Latin Language, Athenee Francais<br />
+1919, Graduated from Sophia University<br />
+1933, Professor, Faculty of Letters, Hosei University<br />
+1943, Quit Hosei University<br />
+1950, Lecturer of Takada School of Foreign Languages<br />
+1952, Lecturer, Faculty and Graduate School of Letters, Waseda University and Faculty of Letters, Keio University<br />
+1958, Died at age 64, of brain bleeding.</p>
+<h2>Works</h2>
+</div>
+
+<!-- main manu end -->
+
+
+
+<!-- pagination start -->
+
+<script type="text/javascript" src="pagination.js"></script>
+
+<!-- pagination end -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<!-- footer start -->
+
+<script type="text/javascript" src="footer.js"></script>
+
+<!-- footer end -->
+<script>
+var options = {
+  caption: function (trigger) {
+    return trigger.querySelector('img').getAttribute('alt');
+  },
+}
+var galleryOpts = {
+  arrowNavigation: false
+};
+var luminousTrigger = document.querySelector('.luminous');
+if( luminousTrigger !== null ) {
+    new Luminous(luminousTrigger, options);
+}
+new LuminousGallery(luminousTrigger, galleryOpts, options);
+</script>
+
+
+  </body>
+</html>

@@ -1,0 +1,1 @@
+dir /b *.js > file_list.txt

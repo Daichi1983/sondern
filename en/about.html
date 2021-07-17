@@ -1,0 +1,164 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+
+<!-- head start -->
+
+<script type="text/javascript" src="head.js"></script>
+
+<!-- head end -->
+
+<link rel="stylesheet" href="css/luminous-basic.min.css">
+<script src="js/luminous.min.js"></script>
+
+  </head>
+  <body>
+
+
+<!-- get file name start -->
+
+<script type="text/javascript">
+var url = window.location.href;
+// without kakuchoshi
+var filename = url.match(".+/(.+?)\.[a-z]+([\?#;].*)?$")[1];
+
+
+//call pageMove() when a key is typed
+document.onkeydown = pageMove;
+var uppage, previouspage, nextpage;
+
+uppage = "../";
+previouspage = "../";
+nextpage = "000/l001-l002.html";
+
+function pageMove()
+{
+  if (event.keyCode == 37)  //←
+  {
+    location.href = previouspage;
+  }
+  if (event.keyCode == 38)  //↑
+  {
+    location.href = uppage;
+  }
+  if (event.keyCode == 39)  //→
+  {
+    location.href = nextpage;
+  }
+}
+
+</script>
+
+<!-- get file name end -->
+
+
+<!-- get title start -->
+
+<script type="text/javascript" src="title.js"></script>
+
+<!-- get title end -->
+
+
+<!-- navigation bar start -->
+
+
+<script type="text/javascript" src="navigation_bar.js"></script>
+
+
+<script>
+  (function() {
+    var cx = '004961374609038470712:wdk2pfiobea';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>
+</nav>
+
+
+<!-- navigation bar end -->
+
+
+
+<!-- breadcrumb start -->
+
+<script type="text/javascript" src="breadcrumb.js"></script>
+
+<!-- breadcrumb end -->
+
+
+
+<!-- pagination start -->
+
+<script type="text/javascript" src="pagination.js"></script>
+
+<!-- pagination end -->
+
+
+<!-- main manu start -->
+
+<div class="container">
+<h2 class="pink">Backgtound</h2>
+<p>  Tsugio Sekiguchi, a Japanese linguist of German Grammar, wrote gigantic manuscript of 25000 pages for 30 years. He collected examples of sentences. Thanks to his first son, Ikuya, the manuscript is stored in Keio University, Hamamatsu University School of Medicine and Osaka Univesity. However, all the researchers who were in charge of the management of manuscript have been retired. It seems that no one use it. Some examples of the manuscript were open public at the web-site of Cyber Media Center, Osaka University before, but it's unavailable now.</p>
+<p>  I happened to get all the digitalized data of Manuscript which is stored in Osaka University, therefore I would like to try to decipher and make it open public as my social responsibility. The manuscript in Osaka University is not original, but copied one.</p>
+<h3 class="lime">Work Record</h3>
+<table class="wp-block-table"><tbody><tr><td>2000</td><td>Manuscript was stored in Osaka University and some of them was digitalized.</td></tr><tr><td>April 2018</td><td>I got the digitalized data.</td></tr><tr><td>May 2018</td><td>Start to decipher the index</td></tr><tr><td>January 2019</td><td>Decipher of index was finished, start to upload to the website.</td></tr></tbody></table>
+<h3 class="lime">Digitalization of Index</h3>
+<p>It is a tough job to make it open public on the web. Although all the pages are digitalized, but we only have image files (TIF). Of course, it's better than nothing, because there are 25000 pages! TIF was the best format when they were scanned.</p>
+<p>All index pages were written in word processor! So there's no ascii data. I used great OCR software of Google, "<a href="https://github.com/tesseract-ocr/">Tesseract</a>." However, the index is written in several languages. It was a difficult point.</p>
+<p>Since Sekiguchi used old style Japanese character as well which Tesseract cannot read. So I wrote replacing program by python. I worked on it every weekday and finished after 6 months or more.</p>
+<h3 class="lime">Digitalization of Main Contents</h3>
+<p>To tell the truth, index pages were not written by Sekiguchi, some researcher wrote to copyedit. I hadn't reached main contents yet.</p>
+<p>Sekiguchi used many styles, not only typewritter, but also Sütterlin or Fraktur. I can read both fonts because I learnt German by the textbook written by Sekiguchi, but generally speaking, it's very difficult for modern person. Japanese language was also written in old style, I can read it without hesitation since I learnt by the textbook written by Sekiguchi, published before WW2, but not easy for modern Japanese.</p>
+<p>Since there are 25000 pages, I digitalized 1 page per a day, it needs 68 years. My life's deadline will come before I finish my work.</p>
+<a href="../img/001/s0005.gif" class="luminous"><img src="../img/001/s0005.gif" alt="A page of the manuscript" class="w-75"></a>
+<h2 class="pink">Plan from Now on</h2>
+<p>I will move ahead slowly. Please wait.</p>
+<h2 class="pink">In the Future</h2>
+<p>No one will manage after I dead. Therefore, I hope I could publish as a book which I will edit by Tex or something. Or someone could take over my work.</p>
+</div>
+
+<!-- main manu end -->
+
+
+
+<!-- pagination start -->
+
+<script type="text/javascript" src="pagination.js"></script>
+
+<!-- pagination end -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<!-- footer start -->
+
+<script type="text/javascript" src="footer.js"></script>
+
+<!-- footer end -->
+
+<script>
+var options = {
+   caption: "文例集の例",
+};
+var luminousTrigger = document.querySelector('.luminous');
+if( luminousTrigger !== null ) {
+    new Luminous(luminousTrigger, options);
+};
+
+</script>
+
+  </body>
+</html>

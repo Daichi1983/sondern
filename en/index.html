@@ -1,0 +1,164 @@
+﻿<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+
+<!-- head start -->
+
+<script type="text/javascript" src="head.js"></script>
+
+<!-- head end -->
+
+<link rel="stylesheet" href="css/luminous-basic.min.css">
+<script src="js/luminous.min.js"></script>
+
+  </head>
+  <body>
+
+
+<!-- get file name start -->
+
+<script type="text/javascript">
+var url = window.location.href;
+// without kakuchoshi
+var filename = url.match(".+/(.+?)\.[a-z]+([\?#;].*)?$")[1];
+
+
+//call pageMove() when a key is pressed
+document.onkeydown = pageMove;
+var uppage, previouspage, nextpage;
+
+uppage = "../";
+previouspage = "../";
+nextpage = "000/l001-l002.html";
+
+function pageMove()
+{
+  if (event.keyCode == 37)  //confirm ←
+  {
+    location.href = previouspage;
+  }
+  if (event.keyCode == 38)  //confirm ↑
+  {
+    location.href = uppage;
+  }
+  if (event.keyCode == 39)  //confirm →
+  {
+    location.href = nextpage;
+  }
+}
+
+</script>
+
+<!-- get file name end -->
+
+
+<!-- get title start -->
+
+<script type="text/javascript" src="title.js"></script>
+
+<!-- get title end -->
+
+
+<!-- navigation bar start -->
+
+
+<script type="text/javascript" src="navigation_bar.js"></script>
+
+
+<script>
+  (function() {
+    var cx = '004961374609038470712:wdk2pfiobea';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>
+</nav>
+
+
+<!-- navigation bar end -->
+
+
+
+<!-- breadcrumb start -->
+
+<script type="text/javascript" src="breadcrumb.js"></script>
+
+<!-- breadcrumb end -->
+
+
+
+<!-- pagination start -->
+
+<script type="text/javascript" src="pagination.js"></script>
+
+<!-- pagination end -->
+
+
+<!-- main manu start -->
+
+<div class="container">
+<h2 class="pink">What's New</h2>
+<dl>
+<dt>March 22, 2019</dt>
+<dd>Website is tentatively open public.</dd>
+</dl>
+<h2 style="margin-top:2em;">Contents</h2>
+<dl>
+<dt><a href="all-index.html">General Index of the Manuscript</a></dt>
+<dd>General Index of the Manuscript which Mr Sekiguchi collected over a lifetime</dd>
+<dt><a href="sekiguchi.html">Who is Sekiguchi Tsugio?</a></dt>
+<dd>Introduction about a Japanese Scholar of German Grammar, Mr Tsugio Sekiguchi</dd>
+<dt><a href="about.html">About</a></dt>
+<dd>Introduction about this website</dd>
+<dt><a href="inquiry.html">Inquiry</a></dt>
+<dd>Contacting addresses</dd>
+<dt>Links</dt>
+<dd>Related links</dd>
+</dl>
+</div>
+
+<!-- main manu end -->
+
+
+
+<!-- pagination start -->
+
+<script type="text/javascript" src="pagination.js"></script>
+
+<!-- pagination end -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<!-- footer start -->
+
+<script type="text/javascript" src="footer.js"></script>
+
+<!-- footer end -->
+
+<script>
+var options = {
+   caption: "文例集の例",
+};
+var luminousTrigger = document.querySelector('.luminous');
+if( luminousTrigger !== null ) {
+    new Luminous(luminousTrigger, options);
+};
+
+</script>
+
+  </body>
+</html>
