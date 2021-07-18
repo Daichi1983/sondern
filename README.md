@@ -8,3 +8,135 @@
 その間に技術は進歩し、CMSの時代からSSG（静的サイトジェネレーター）時代へと変わり、大規模なサイトでも早く見せる方法が出てきました。
 
 そこで、現在、すべてのノートをSSGで公開すべく、ここにデータを置き、SSGに作成していくことにしました。技術的にはまだよくわかっていないところも多々あるので、成功するかは分かりませんが、一つの試みとしてやってみます。
+
+## それぞれのファイルの作り方
+
+### 基本となるファイルの作り方
+
+いくつかのファイルを用いて自動で作成していきます。まずはそれぞれの画像フォルダに行って画像ファイルのリストを作成します。
+
+```
+dir /b *.TIF > file_list.txt
+```
+
+簡単ですね。できたfile_list.txtはそれぞれ/ja/以下のフォルダに入れていきます。
+
+### HTMLファイルの作り方
+
+/ja/001に入っているファイルを参照に、以下のファイルを準備します。
+
+* 1_cont.html
+* 2_cont.html
+* 3_cont.html
+* breadcrumb.js
+* file_list.txt
+* html-format.py
+
+HTMLファイルは合体させて完成後のファイルの一部とするものです。単体ではあまり意味がありません。
+
+breadcrumb.jsはその名の通りパンくずリスト作成用JavaScriptファイルです。これも完成後のファイルの一部とするものです。
+
+肝心なのはpythonファイルです。へたくそなファイルですが、中身は以下の通りです。
+
+```python:html-format.py
+
+import re
+import codecs
+
+
+m1 = codecs.open("1_cont.html", "r", encoding="utf-8")
+m3 = codecs.open("3_cont.html", "r", encoding="utf-8")
+m1r = m1.read()
+m3r = m3.read()
+
+fl = codecs.open("file_list.txt", "r")
+flr = fl.read()
+flr = flr.replace(".tif",".html")
+flr = flr.replace(".TIF",".html")
+flr = flr.replace(".gif",".html")
+flr = flr.replace("S0","s0")
+flr = flr.replace("L0","l0")
+flr = flr.split("\n")
+del flr[-1]
+nmb = 0
+
+lnth = len(flr)
+
+flr.append(flr[0])
+
+while nmb < lnth:
+ nmp = nmb - 1
+ nma = nmb + 1
+ m2r = "uppage = \"../000/l001-l002.html\";" + "\r\n" + "previouspage = \"" + flr[nmp] + "\";" + "\r\n" + "nextpage = \"" + flr[nma] + "\";" + "\n"
+ main_content = m1r + m2r + m3r
+ print(main_content)
+ print(flr[nmb])
+ fl2 = codecs.open(flr[nmb], "w", encoding="utf-8")
+ fl2.write(main_content)
+ fl2.close()
+ nmb += 1
+
+print("Big Finish")
+fl.close()
+
+```
+
+HTMLファイル配下ではfile_list.txtの中身の.TIFや.GIFといった拡張子を.htmlに変換する必要があります。
+
+変換後、html-format.pyを動かせば自動的にファイルが完成します。
+
+### JSファイルの作り方
+
+以下のファイルを用意します。
+
+* file_list.txt
+* js-format.py
+* sample.js
+
+まず、file_list.txtの中の画像の拡張子、.TIFや.gifを.jsに置換します。
+
+その後、js-format.pyを動かせば完成です。
+
+```python:js-format.py
+
+import re
+import codecs
+
+fl = codecs.open("file_list.txt", "r")
+flr = fl.read()
+flr = flr.replace(".tif",".js")
+flr = flr.replace(".TIF",".js")
+flr = flr.replace("L0","l0")
+flr = flr.replace("S0","s0")
+flr = flr.split("\n")
+nmb = 0
+
+lnth = len(flr)
+del flr[-1]
+
+for i in flr:
+ nmp = nmb - 1
+ nma = nmb + 1
+ fl1 = codecs.open("sample.js", "r", encoding="utf-8")
+ main_content = fl1.read()
+ main_content = main_content.replace("番号","002")
+ main_content = main_content.replace("置換",i[1:5])
+ print(main_content)
+ print(i[1:5])
+ fl2 = codecs.open(i, "w", encoding="utf-8")
+ fl2.write(main_content)
+ fl2.close()
+ nmb += 1
+
+print("Big Finish")
+fl.close()
+
+```
+
+これでひとまずファイルはできあがるはずです。
+
+ただ、JavaScriptの変数の宣言にconstじゃなくてvarを使っていたりと少し古い書き方をしているので、将来的には見せ方を考えないといけません。
+
+ネットにはこうした写真集、画像集を効率的に見せるノウハウがあまり転がっていないので、手探りでやっています。
+
+個人で2万5千ファイルの画像を公開しようとする人は少ないでしょうから、仕方ないですね。
