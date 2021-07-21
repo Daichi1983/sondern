@@ -183,3 +183,19 @@ for frs in fr_split:
 ネットにはこうした写真集、画像集を効率的に見せるノウハウがあまり転がっていないので、手探りでやっています。
 
 個人で2万5千ファイルの画像を公開しようとする人は少ないでしょうから、仕方ないですね。
+
+## Netlifyの設定
+
+以下のように設定しないとエラー続出でした。
+
+Repository github.com/Daichi1983/sondern
+
+Base directory Not set
+
+Build command Not set
+
+Publish directory Not set
+
+Deploy log visibility Logs are public
+
+Builds Active
