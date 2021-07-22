@@ -188,14 +188,10 @@ for frs in fr_split:
 
 以下のように設定しないとエラー続出でした。
 
-Repository github.com/Daichi1983/sondern
-
-Base directory Not set
-
-Build command Not set
-
-Publish directory Not set
-
-Deploy log visibility Logs are public
-
-Builds Active
+| Repository | github.com/Daichi1983/sondern |
+|:---|:---|
+|Base directory |Not set |
+|Build command |Not set |
+|Publish directory |Not set |
+|Deploy log |visibility Logs are public |
+|Builds |Active |
