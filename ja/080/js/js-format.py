@@ -1,5 +1,10 @@
 ﻿import re
 import codecs
+import os
+
+place = os.getcwd()
+place_s = place.split("\\")
+folder = place_s[-2] #ディレクトリ名を得る
 
 fl = codecs.open("file_list.txt", "r")
 flr = fl.read()
@@ -18,7 +23,7 @@ for i in flr:
  nma = nmb + 1
  fl1 = codecs.open("sample.js", "r", encoding="utf-8")
  main_content = fl1.read()
- main_content = main_content.replace("番号","002")
+ main_content = main_content.replace("番号",folder)
  main_content = main_content.replace("置換",i[1:5])
  print(main_content)
  print(i[1:5])
