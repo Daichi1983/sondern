@@ -185,6 +185,23 @@ for frs in fr_split:
 #--- 確定 ---
 ```
 
+余談ですが、以下の書き方でディレクトリ名を得られるのはJavaScript側に特徴があるからです。
+
+```
+# ディレクトリ名を得る
+fr_split = fr.split("\n")
+directory = fr_split[2][52:54] #ディレクトリ名を得た
+```
+
+JavaScript側は以下のようになっています。
+
+``` JavaScript
+document.write('<div class="container">');
+document.write('<div class="row"><div class="col-2">袋番号</div><div class="col-8">タイトル</div><div class="col-2">ページ</div></div>');
+```
+
+本来なら上の通りパスを使うのがスマートですね。
+
 そのあとはコマンドプロンプトで拡張子を書き換えました。これは簡単ですね。
 
 ```
