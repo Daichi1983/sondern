@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<url>
+  <loc>https://sondern.netlify.app/</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://sondern.netlify.app/ja/all-index.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://sondern.netlify.app/ja/sekiguchi.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://sondern.netlify.app/ja/about.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://sondern.netlify.app/ja/inquiry.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://sondern.netlify.app/ja/index.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://sondern.netlify.app/en/index.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://sondern.netlify.app/ja/how-i-learned-german.html</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://sondern.netlify.app/en/all-index.html</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://sondern.netlify.app/en/sekiguchi.html</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://sondern.netlify.app/en/about.html</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://sondern.netlify.app/en/inquiry.html</loc>
+  <priority>0.7</priority>
+</url>
+
+</urlset>
