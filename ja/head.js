@@ -1,4 +1,11 @@
-﻿document.write('<!-- Global site tag (gtag.js) - Google Analytics -->');
+﻿document.write('<!-- Google Tag Manager -->');
+document.write("<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':");
+document.write("new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],");
+document.write("j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=");
+document.write("'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);");
+document.write("})(window,document,'script','dataLayer','GTM-TQJZWCV');</script>");
+document.write('<!-- End Google Tag Manager -->');
+document.write('<!-- Global site tag (gtag.js) - Google Analytics -->');
 document.write('<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42613638-11"></script>');
 document.write('<script>');
 document.write('  window.dataLayer = window.dataLayer || [];');
