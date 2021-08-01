@@ -1,0 +1,143 @@
+﻿<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+
+<!-- head start -->
+
+<script type="text/javascript" src="../head.js"></script>
+
+<!-- head end -->
+
+
+
+  </head>
+  <body>
+
+
+<!-- get file name start -->
+
+<script type="text/javascript">
+var url = window.location.href;
+// 拡張子無しで
+var filename = url.match(".+/(.+?)\.[a-z]+([\?#;].*)?$")[1];
+
+
+//キー押下時に関数pageMove()を呼び出す
+document.onkeydown = pageMove;
+var uppage, previouspage, nextpage;
+
+uppage = "../000/l001-l002.html";
+previouspage = "s0863.html";
+nextpage = "s0865.html";
+﻿
+
+function pageMove()
+{
+  if (event.keyCode == 37)  //「←」が押されたか確認
+  {
+    location.href = previouspage;
+  }
+  if (event.keyCode == 38)  //「↑」が押されたか確認
+  {
+    location.href = uppage;
+  }
+  if (event.keyCode == 39)  //「→」が押されたか確認
+  {
+    location.href = nextpage;
+  }
+}
+
+</script>
+
+<!-- get file name end -->
+
+
+<!-- get title start -->
+
+<script type="text/javascript" src="../title.js"></script>
+
+<!-- get title end -->
+
+
+<!-- navigation bar start -->
+
+
+<script type="text/javascript" src="../navigation_bar.js"></script>
+
+
+<script>
+  (function() {
+    var cx = '004961374609038470712:wdk2pfiobea';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>
+</nav>
+
+
+<!-- navigation bar end -->
+
+
+
+<!-- breadcrumb start -->
+
+<script type="text/javascript" src="breadcrumb.js"></script>
+
+<!-- breadcrumb end -->
+
+
+
+<!-- pagination start -->
+
+<script type="text/javascript" src="../pagination.js"></script>
+
+<!-- pagination end -->
+
+<!-- main manu start -->
+
+<script type="text/javascript">
+document.write('<script type="text/javascript" src="js\/' + filename + '.js"><\/script>');
+</script>
+
+<!-- main manu end -->
+
+
+
+<!-- pagination start -->
+
+<script type="text/javascript" src="../pagination.js"></script>
+
+<!-- pagination end -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<!-- footer start -->
+
+<script type="text/javascript" src="../footer.js"></script>
+
+<script>
+var luminousTrigger = document.querySelector('.luminous');
+if( luminousTrigger !== null ) {
+    new Luminous(luminousTrigger);
+}
+</script>
+
+<!-- footer end -->
+
+
+  </body>
+</html>
