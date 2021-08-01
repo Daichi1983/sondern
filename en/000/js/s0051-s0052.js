@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">23-1R</div><div class="col-8"><a href="../023/s0001.html">Im Gottes Namen<br />［現代的］驚きのJunge!（nein!） Menschens Kind! Mensch!</a></div><div class="col-2">1-2</div></div>');
 document.write('<div class="row"><div class="col-2">23-2B</div><div class="col-8"><a href="../023/s0003.html">Apostrophe（頓呼法）</a></div><div class="col-2">3-10</div></div>');
 document.write('<div class="row"><div class="col-2">23-3B</div><div class="col-8"><a href="../023/s0011.html">hélas! 等</a></div><div class="col-2">11</div></div>');

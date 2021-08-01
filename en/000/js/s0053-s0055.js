@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../024/s0001.html"> </a></div><div class="col-2"> </div></div>');
 document.write('<div class="row"><div class="col-2">24-1B</div><div class="col-8"><a href="../024/s0001.html">接続詞 従属的接続詞</a></div><div class="col-2">1-35</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../024/s0002.html">［01］複雑な成句的接続詞</a></div><div class="col-2">2</div></div>');

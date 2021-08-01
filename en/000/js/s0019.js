@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">12-1B</div><div class="col-8"><a href="../012/s0001.html">本編の主人公 unser 問題の男、etc.</a></div><div class="col-2">1-8</div></div>');
 document.write('<div class="row"><div class="col-2">12-2B</div><div class="col-8"><a href="../012/s0009.html">物主形容詞</a></div><div class="col-2">9-83</div></div>');
 document.write('<div class="row"><div class="col-2">12-2B</div><div class="col-8"><a href="../012/s0011.html">[01]直前を受けるもの。（物）再帰物主形容詞なり</a></div><div class="col-2">11</div></div>');

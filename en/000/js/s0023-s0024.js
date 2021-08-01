@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">14-1B</div><div class="col-8"><a href="../014/s0001.html">=froh, =freudig, =lustig, =lüstern, =süchtig</a></div><div class="col-2">1-5</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../014/s0003.html">=begerig(Gierig??)</a></div><div class="col-2">3</div></div>');
 document.write('<div class="row"><div class="col-2">14-2B</div><div class="col-8"><a href="../014/s0006.html">=gerecht</a></div><div class="col-2">6-11</div></div>');

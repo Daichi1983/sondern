@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">17-1B</div><div class="col-8"><a href="../017/s0001.html">［仏］…<u>et</u> qui</a></div><div class="col-2">1</div></div>');
 document.write('<div class="row"><div class="col-2">17-2B</div><div class="col-8"><a href="../017/s0002.html">［仏］関係代名詞（一般、雑）</a></div><div class="col-2">2</div></div>');
 document.write('<div class="row"><div class="col-2">17-3B</div><div class="col-8"><a href="../017/s0003.html">先行詞と関係代名詞 受け方の問題<br />関係文の受け方の一つの場合（単か複か）</a></div><div class="col-2">3-17</div></div>');

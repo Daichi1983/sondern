@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">10-1B</div><div class="col-8"><a href="../010/s0001.html">不定冠詞 雑項</a></div><div class="col-2">1-63</div></div>');
 document.write('<div class="row"><div class="col-2">10-2B</div><div class="col-8"><a href="../010/s0064.html">任意的、否定的</a></div><div class="col-2">64-79</div></div>');
 document.write('<div class="row"><div class="col-2">10-3B</div><div class="col-8"><a href="../010/s0080.html">MHD, AHD, GOTその他に不定冠詞はあるか</a></div><div class="col-2">80-82</div></div>');

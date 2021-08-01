@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">16-1B</div><div class="col-8"><a href="../016/s0001.html">比較、形容詞、比較級</a></div><div class="col-2">1-187</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../016/s0007.html">［01］普通の用法。（述語的）（附加語的）</a></div><div class="col-2">7</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../016/s0021.html">［02］alsを省いて突然比較級を使ふ際。</a></div><div class="col-2">21</div></div>');

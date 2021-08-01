@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">15-1R</div><div class="col-8"><a href="../015/s0001.html">具体的なdas ～ e</a></div><div class="col-2">1-2</div></div>');
 document.write('<div class="row"><div class="col-2">15-2B</div><div class="col-8"><a href="../015/s0003.html">形容詞の名詞化 名詞的用法<br />Das schickssal Teusend<u>er</u> von Menschen.</a></div><div class="col-2">3-158</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../015/s0005.html">[01]過去分詞。（男女のみ） 形容詞の名詞化<br />der Abtrünnige, Aufständische, der Aussätzige.</a></div><div class="col-2">5</div></div>');

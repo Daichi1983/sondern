@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">25-1R</div><div class="col-8"><a href="../025-1/s0001.html">wenn....nicht.... 或は云々することもあるべし<br />....es sei denn,daß....<br />［MHD］ daz, dazの構造：<br />Verweisung<br />Konsekutiv=wenn<br />wennと時称 Modusの問題一括</a></div><div class="col-2">1-3</div></div>');
 document.write('<div class="row"><div class="col-2">25-2B</div><div class="col-8"><a href="../025-1/s0004.html">接続詞補足 1.einmal（…云々するや否や、したる以上…） 2.<u>als ob</u>,［tout comme si］</a></div><div class="col-2">4-5</div></div>');
 document.write('<div class="row"><div class="col-2">25-3B</div><div class="col-8"><a href="../025-1/s0006.html">wenn....nur.... pourvu que</a></div><div class="col-2">6-10\'</div></div>');

@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">29-1B</div><div class="col-8"><a href="../029-1/s0001.html">subsumptions=Unter.</a></div><div class="col-2">1-8</div></div>');
 document.write('<div class="row"><div class="col-2">29-2R</div><div class="col-8"><a href="../029-1/s0009.html">…の下に隠れて、…を掲げて。<br />「云々の美名にかくれて」</a></div><div class="col-2">9-12</div></div>');
 document.write('<div class="row"><div class="col-2">29-3R</div><div class="col-8"><a href="../029-1/s0013.html">among, aumilieu de.</a></div><div class="col-2">13-21</div></div>');

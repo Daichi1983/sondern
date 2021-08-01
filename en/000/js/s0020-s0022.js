@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">13-1B</div><div class="col-8"><a href="../013/s0001.html">形容詞形態・語尾</a></div><div class="col-2">1-131</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../013/s0003.html">[01]? 尾をつけさるもの（中には不定数詞に扱うもの<br />あり。</a></div><div class="col-2">3</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../013/s0004.html">[02]定冠詞をくりかえすことあり。</a></div><div class="col-2">4</div></div>');

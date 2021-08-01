@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">26-1R</div><div class="col-8"><a href="../026/s0001.html">kuppe =rrhöe 「局」の概念に就いて<br />Zinke, Die stimmgabel hat zwei Zinken.<br />Pinne, Magnetnadel frei beweglich auf<br />ihrer <u>Pinne</u>.<br />Öse Bombenose（耳環）<br />紐、縄、綱、目<br />Où voulez vous en venir?<br />仏語のy 0uf ! ça y est !<br />とうとう言っちゃった！<br />DA （現臨局面）Da irren Sie sich gewaltig.<br /><u>そこが</u><br />nach gerade</a></div><div class="col-2">1-8</div></div>');
 document.write('<div class="row"><div class="col-2">26-2B</div><div class="col-8"><a href="../026/s0009.html">［雑］nicht</a></div><div class="col-2">9-10</div></div>');
 document.write('<div class="row"><div class="col-2">26-3B</div><div class="col-8"><a href="../026/s0011.html">［雑］用法困維なる熟語其他</a></div><div class="col-2">11-13</div></div>');

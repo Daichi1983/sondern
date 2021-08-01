@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">05-1R</div><div class="col-8"><a href="../005/s0001.html">それ自身としてはまだ格を決めるわけに行かないもの<br />は一格を以てNeuefallとして持ちふ。（内的格と対外格との問題）。掲称・列挙の一格→無冠詞（掲称）。Nenn=Nominativ.四格使用の例外として。Vocativと物主形容詞との関係：Unser Vater, Mein Vater, はあるがSein Verter, Dein Vater etcは<u>存在せず</u>！ Apposition代りの一格</a></div><div class="col-2">1-6<br /> <br /> <br /> <br /> </div></div>');
 document.write('<div class="row"><div class="col-2">05-2B</div><div class="col-8"><a href="../005/s0007.html">描写・列挙の際の一格</a></div><div class="col-2">7-8</div></div>');
 document.write('<div class="row"><div class="col-2">05-3B</div><div class="col-8"><a href="../005/s0009.html">alsの次のNenn=Nominativ</a></div><div class="col-2">9</div></div>');

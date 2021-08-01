@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">27-1B</div><div class="col-8"><a href="../027-1/s0001.html">damitかmit ihrか</a></div><div class="col-2">1-2</div></div>');
 document.write('<div class="row"><div class="col-2">27-2R</div><div class="col-8"><a href="../027-1/s0003.html">尊称の代名詞としてのDieselbe（n）<br />Höchst=dieselben等<br />［Das］複数的観念を考へる如く思われる時<br />（beid<u>e</u>s）等の用法と同じ<br />allerhand（=Alleriei） 名詞的にも附加的にも<br />Mein Rat is <u>der</u> （Das ist mein Rat.）<br /><u>dieser</u></a></div><div class="col-2">3-4</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../027-1/s0003.html"> </a></div><div class="col-2"> </div></div>');

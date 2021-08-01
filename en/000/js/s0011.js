@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">07-1B</div><div class="col-8"><a href="../007/s0001.html">名詞 Dativ</a></div><div class="col-2">1-187</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../007/s0002.html">[01]<u>Ablativ</u>(AB.=その他） ab= のみ（他にan=）</a></div><div class="col-2">2</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../007/s0004.html">[02]物主代名詞＝格名詞｝代り。（物主に属する付属<br />物の名詞を伴い、定冠詞。）</a></div><div class="col-2">4</div></div>');

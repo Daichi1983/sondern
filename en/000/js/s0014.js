@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">09-1B</div><div class="col-8"><a href="../009/s0001.html">附置規定（殊に掲称的附置規定）命名の附置規定</a></div><div class="col-2">1-24</div></div>');
 document.write('<div class="row"><div class="col-2">09-1B</div><div class="col-8"><a href="../009/s0004.html">[01]普通名詞。固有名詞。</a></div><div class="col-2">4</div></div>');
 document.write('<div class="row"><div class="col-2">09-1B</div><div class="col-8"><a href="../009/s0011.html">[02]Adresse, Wohnort.</a></div><div class="col-2">11</div></div>');

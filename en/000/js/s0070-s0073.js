@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">28-1R</div><div class="col-8"><a href="../028/s0001.html">前置詞 前置句<br />［雑］bei Gelegenheit des = gelegentiich<br />bei dint of ～ à force de ～<br />à grand renfort de～ vor→にも通ず「の余り」<br />［英］short of</a></div><div class="col-2">1-4</div></div>');
 document.write('<div class="row"><div class="col-2">28-2B</div><div class="col-8"><a href="../028/s0005.html">［英］by way of</a></div><div class="col-2">5-7</div></div>');
 document.write('<div class="row"><div class="col-2">28-3B</div><div class="col-8"><a href="../028/s0008.html">［仏］前置句一般</a></div><div class="col-2">8</div></div>');

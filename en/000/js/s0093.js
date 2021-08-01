@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">33-1B</div><div class="col-8"><a href="../033/s0001.html">時称 seinか habenか</a></div><div class="col-2">1-43</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../033/s0003.html">［01］habenの用法の生ずるわけ。<br />（分詞と名詞とが合体）</a></div><div class="col-2">3</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../033/s0004.html">［02］habenの用法。（名詞四格と分詞とが別々<br />になる）（現在完了と間違えがちな場合）</a></div><div class="col-2">4</div></div>');

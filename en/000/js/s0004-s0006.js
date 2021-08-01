@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">03-1B</div><div class="col-8"><a href="../003-1/s0001.html">er, el, en n型（複数及び性）</a></div><div class="col-2">1-17</div></div>');
 document.write('<div class="row"><div class="col-2">03-2B</div><div class="col-8"><a href="../003-1/s0018.html">性</a></div><div class="col-2">18-91</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../003-1/s0020.html">［01］複合名詞の性はその最後の字によって決める－－といふ規則についての注意</a></div><div class="col-2">20</div></div>');

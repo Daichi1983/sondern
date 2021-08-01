@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">32-1B</div><div class="col-8"><a href="../032/s0001.html">Zuを伴ふ不定法</a></div><div class="col-2">1-252</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../032/s0005.html">［01］動詞の直接補足（四格的）となるzu+inf.</a></div><div class="col-2">5</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../032/s0006.html">［02］名詞の附加語（限定）となるzu+inf.</a></div><div class="col-2">6</div></div>');

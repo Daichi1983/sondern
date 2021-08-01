@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">02-1B</div><div class="col-8"><a href="../002/s0001.html">Nomen agentisの用法</a></div><div class="col-2">1</div></div>');
 document.write('<div class="row"><div class="col-2">02-2B</div><div class="col-8"><a href="../002/s0002.html">”子”ling, Eektron, Isolator 格子、穴ぼっこ、娘っこ</a></div><div class="col-2">2-5</div></div>');
 document.write('<div class="row"><div class="col-2">02-3B</div><div class="col-8"><a href="../002/s0006.html">貶詞、附: launenhafte bezeichnung</a></div><div class="col-2">6-59</div></div>');

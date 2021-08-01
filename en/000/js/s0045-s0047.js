@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">21-1B</div><div class="col-8"><a href="../021/s0001.html"><u>immer</u></a></div><div class="col-2">1-20</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../021/s0002.html">immer 常に。</a></div><div class="col-2">2</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../021/s0003.html">認容的<u>immer</u></a></div><div class="col-2">3</div></div>');

@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">06-1B</div><div class="col-8"><a href="../006/s0001.html">Genitiv</a></div><div class="col-2">1-283</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../006/s0004.html">[01]Genitivs Abusolutus</a></div><div class="col-2">4</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../006/s0044.html">[02]Genitivs Abusolutus 副詞的規定</a></div><div class="col-2">44</div></div>');

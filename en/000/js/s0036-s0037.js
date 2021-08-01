@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">18-1B</div><div class="col-8"><a href="../018/s0001.html">人代名詞</a></div><div class="col-2">1-49</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../018/s0002.html">［01］Ihre Majestät（Substrat des Peisonalpronoms）</a></div><div class="col-2">2</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../018/s0006.html">［02］Periphrase als:Substratum des Pers.-prono.</a></div><div class="col-2">6</div></div>');

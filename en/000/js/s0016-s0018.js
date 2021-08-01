@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">11-1B</div><div class="col-8"><a href="../011/s0001.html">病名と冠詞</a></div><div class="col-2">1-9</div></div>');
 document.write('<div class="row"><div class="col-2">11-2B</div><div class="col-8"><a href="../011/s0010.html">Dieserの意(tonlos)</a></div><div class="col-2">10-15</div></div>');
 document.write('<div class="row"><div class="col-2">11-3B</div><div class="col-8"><a href="../011/s0016.html">Dieserと同じでしかもtonlos、即ち完全に定冠詞なる<br />もの</a></div><div class="col-2">16-28</div></div>');

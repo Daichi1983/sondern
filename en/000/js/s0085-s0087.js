@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">31-1B</div><div class="col-8"><a href="../031/s0001.html">編者注：本袋「31-1B」内は二つのノート・ブックに整理されているので、これを記号①、②で示すことにした。<br />定形倒置及び先置 転置</a></div><div class="col-2">1-2</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../031/s0003.html">①［01］doch, aber それが証拠に。</a></div><div class="col-2">3</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../031/s0011.html">①［02］sah ein Knab ein Röslein stehn.<br />（es sah ein Knab）</a></div><div class="col-2">11</div></div>');

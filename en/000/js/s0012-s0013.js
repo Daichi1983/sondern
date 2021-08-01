@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">08-1B</div><div class="col-8"><a href="../008/s0001.html">間投的四格。</a></div><div class="col-2">1</div></div>');
 document.write('<div class="row"><div class="col-2">08-2B</div><div class="col-8"><a href="../008/s0002.html">四格 Akkusativ</a></div><div class="col-2">2-156</div></div>');
 document.write('<div class="row"><div class="col-2">08-2B</div><div class="col-8"><a href="../008/s0006.html">[01]umliche Erstreckung. 編者注:?</a></div><div class="col-2">6</div></div>');

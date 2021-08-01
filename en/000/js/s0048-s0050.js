@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">Number</div><div class="col-8">Category Title</div><div class="col-2">Page</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">21-1B</div><div class="col-8"><a href="../022/s0001.html">［雑］<u>doch</u>1-102</a></div><div class="col-2"> </div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../022/s0002.html">副文章内のdoch（…筈の、…の癖に）</a></div><div class="col-2">2</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../022/s0005.html">doch［woh1］勿論…だらうじゃないか。</a></div><div class="col-2">4</div></div>');

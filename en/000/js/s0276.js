@@ -1,5 +1,5 @@
 ﻿document.write('<div class="container">');
-document.write('<div class="row"><div class="col-2">袋番号</div><div class="col-8">タイトル</div><div class="col-2">ページ</div></div>');
+document.write('<div class="row"><div class="col-2">Category Number</div><div class="col-8">Category Title</div><div class="col-2">Index Page</div></div>');
 document.write('<div class="row"><div class="col-2">88-11R</div><div class="col-8"><a href="../088/s0001.html"></a></div><div class="col-2">1-12</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../088/s0001.html">（1）Ausprägung   sich herausbilden<br>（Vollentwicklung）</a></div><div class="col-2"></div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../088/s0002.html">（2）文法形態</a></div><div class="col-2"></div></div>');
