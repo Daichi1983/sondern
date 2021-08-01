@@ -26,7 +26,7 @@ document.write('<div class="row"><div class="col-2">23</div><div class="col-8"><
 document.write('<div class="row"><div class="col-2">24</div><div class="col-8"><a href="000/s0053-s0055.html">接続詞（一般） Konjunktion allg.</a></div><div class="col-2">53</div></div>');
 document.write('<div class="row"><div class="col-2">25</div><div class="col-8"><a href="000/s0056-s0062.html">接続詞（各論） Konjunktionen</a></div><div class="col-2">56</div></div>');
 document.write('<div class="row"><div class="col-2">26</div><div class="col-8"><a href="000/s0063.html">助詞 Hilfswörter</a></div><div class="col-2">63</div></div>');
-document.write('<div class="row"><div class="col-2">27</div><div class="col-8"><a href="000/s0063-s0069.html">指示詞 Demonstrativ</a></div><div class="col-2">64</div></div>');
+document.write('<div class="row"><div class="col-2">27</div><div class="col-8"><a href="000/s0064-s0069.html">指示詞 Demonstrativ</a></div><div class="col-2">64</div></div>');
 document.write('<div class="row"><div class="col-2">28</div><div class="col-8"><a href="000/s0070-s0073.html">前置詞（一般） Präposition allg.</a></div><div class="col-2">70</div></div>');
 document.write('<div class="row"><div class="col-2">29</div><div class="col-8"><a href="000/s0074-s0078.html">前置詞 Präpositionen</a></div><div class="col-2">74</div></div>');
 document.write('<div class="row"><div class="col-2">30</div><div class="col-8"><a href="000/s0079-s0084.html">数詞 Numerale</a></div><div class="col-2">79</div></div>');
