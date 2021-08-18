@@ -11,7 +11,7 @@ document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a 
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../052/s0026.html">［07］<u>Es</u> regnet Dukaten等</a></div><div class="col-2">26</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../052/s0026.html">［08］文章関係では：</a></div><div class="col-2">26</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../052/s0027.html">［09］名詞の四格（その場で造るもの）<u>machen</u></a></div><div class="col-2">27</div></div>');
-document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../052/s0030.html">［10］setzte dem <u>überraschten</u> Gatten noch einige<br>Kartoffeln vor.<u>附加語形容詞</u><br>述語句的なものも。</a></div><div class="col-2">3052div></div>');
+document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../052/s0030.html">［10］setzte dem <u>überraschten</u> Gatten noch einige<br>Kartoffeln vor.<u>附加語形容詞</u><br>述語句的なものも。</a></div><div class="col-2">30<div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../052/s0036.html">［11］必ずしも形容詞、名詞の四格のみに非ず。</a></div><div class="col-2">36</div></div>');
 document.write('<div class="row"><div class="col-2">52-2B</div><div class="col-8"><a href="../052/s037-.html">搬動語法と方向の概念  bringenの形態［動］</a></div><div class="col-2">37-97</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../052/s0038.html">［01］前綴の方向指示（結果挙述に属すべきもの多し）</a></div><div class="col-2">38</div></div>');
