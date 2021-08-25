@@ -89,7 +89,7 @@ document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a 
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0145.html">（25）anzünden（点火）</a></div><div class="col-2">145</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0150.html">（26）an-regen, an-treiben. <u>動かす</u></a></div><div class="col-2">150</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0152.html">（27）<u>kommen</u> と共にan+ 過分詞</a></div><div class="col-2">152</div></div>');
-document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0155.html">（28）四格と<u>an</u>=［streben］ 進む方向、近づ<目標</a></div><div class="col-2">155</div></div>');
+document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0155.html">（28）四格と<u>an</u>=［streben］ 進む方向、近づく目標</a></div><div class="col-2">155</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0157.html">（29）an= heran（herbei）  近づく（梵  upa）</a></div><div class="col-2">157</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0158.html">（30）heran-anziehen（attirer）  引きつける<br />引きよせる</a></div><div class="col-2">158</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0158.html">（31）拉典語のad=</a></div><div class="col-2">158</div></div>');
@@ -140,8 +140,8 @@ document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a 
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0257.html">（13）［zum Tanz］<u>auf</u> spielen 等</a></div><div class="col-2">257</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0257.html">（14）eine Frage <u>auf</u>werfen</a></div><div class="col-2">257</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0258.html">（15）拾ふ、ためる  aufnotieren</a></div><div class="col-2">258</div></div>');
-document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0259.html">（16）auffallen  （眼につ<）</a></div><div class="col-2">259</div></div>');
-document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0260.html">（17）拾ふ＜発見する  aufgabeln.  auflesen.</a></div><div class="col-2">260</div></div>');
+document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0259.html">（16）auffallen  （眼につく）</a></div><div class="col-2">259</div></div>');
+document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0260.html">（17）拾ふ、発見する  aufgabeln.  auflesen.</a></div><div class="col-2">260</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0262.html">（18）開ける、開く、融ける、解ける</a></div><div class="col-2">262</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0269.html">（19）崩壊  ほどける Auf-weichung. Auf-lösung,</a></div><div class="col-2">269</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../077/s0270.html">（20）負はせる、課する、載せる  （auf=erlegen.）</a></div><div class="col-2">270</div></div>');

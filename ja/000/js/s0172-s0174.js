@@ -22,7 +22,7 @@ document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a 
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../061/s0114.html">［05］省畧せざる場合（18世紀）会話調、俗調</a></div><div class="col-2">114</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../061/s0117.html">［06］als, の次の省文<br />wie</a></div><div class="col-2">117</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../061/s0122.html">［07］als,  の吹の省畧（関係代名詞の前の<br />wie     指示代名詞を省く）</a></div><div class="col-2">122</div></div>');
-document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../061/s0124.html">［08］力強<云ふ時の主語省畧。（動詞定形の強調）</a></div><div class="col-2">124</div></div>');
+document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../061/s0124.html">［08］力強く云ふ時の主語省畧。（動詞定形の強調）</a></div><div class="col-2">124</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../061/s0125.html">［09］省畧しない方が有効な時には省畧しない。</a></div><div class="col-2">125</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../061/s0126.html">［10］同概念の反覆（省畧せざるもの）力強し<br />=効果的反覆=</a></div><div class="col-2">126</div></div>');
 document.write('<div class="row"><div class="col-2"></div><div class="col-8"><a href="../061/s0138.html">［11］Yes, he has等に相当する返辞。</a></div><div class="col-2">138</div></div>');

@@ -17,7 +17,7 @@ document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../006/s0157.html">[14]述語的Gen. Abs.の熟語（von---）</a></div><div class="col-2">157</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../006/s0164.html">[15]des Weiteren等（比較級が主）</a></div><div class="col-2">164</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../006/s0168.html">[16]Namens, sein zeichens.（nach---）</a></div><div class="col-2">168</div></div>');
-document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../006/s0175.html">[17]ein glas Weinに形容詞がつくとein glas &lt;uとなる事。&lt;/u</a></div><div class="col-2">175</div></div>');
+document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../006/s0175.html">[17]ein glas Weinに形容詞がつくとein glas <u>fris dem Weines</u>となる事。</a></div><div class="col-2">175</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../006/s0175.html">[18]Gen.Abs.の形容詞的用法（熟語には非ざるもの）</a></div><div class="col-2">175</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../006/s0176.html">[19]Zeitliche Erstreckung（Akkusativの代わり）</a></div><div class="col-2">176</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../006/s0179.html">[20]数詞、量詞と共に。</a></div><div class="col-2">179</div></div>');

@@ -1,7 +1,7 @@
 ﻿document.write('<div class="container">');
 document.write('<div class="row"><div class="col-2">袋番号</div><div class="col-8">タイトル</div><div class="col-2">ページ</div></div>');
 document.write('<div class="row"><div class="col-2">20-1B</div><div class="col-8"><a href="../020/s0001.html">schon</a></div><div class="col-2">1-101</div></div>');
-document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0003.html">順序（論理的9…となると既に</a></div><div class="col-2">3</div></div>');
+document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0003.html">順序（論理的）…となると既に</a></div><div class="col-2">3</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0006.html">前置接続詞的。</a></div><div class="col-2">6</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0007.html">大丈夫、もう、まあ。「いづれ」楽観の表現</a></div><div class="col-2">7</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0011.html">こうなって来るとこるなどうしても「もう」…仕方がない どうも</a></div><div class="col-2">11</div></div>');
@@ -18,9 +18,9 @@ document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0035.html">Es müsste schon mit dem Teufe1 zugehen, <br />wenn....sollte</a></div><div class="col-2">35</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0039.html">so（ge1egent1ich）=ich weiss nicht wie....<br />なんだか</a></div><div class="col-2">39</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0043.html">その通りで（よろしい、等）形容詞的</a></div><div class="col-2">43</div></div>');
-document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0051.html">比較Wieの後に来るso<br />さう言う風に（動詞につ&lt;）<u>thus</u></a></div><div class="col-2">51</div></div>');
+document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0051.html">比較Wieの後に来るso<br />さう言う風に（動詞につく）<u>thus</u></a></div><div class="col-2">51</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0052.html">so vier, so gut, so lange 非常に（一般項）</a></div><div class="col-2">52</div></div>');
-document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0053.html">斯&lt;の如くにしては（仮定的）</a></div><div class="col-2">53</div></div>');
+document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0053.html">斯くの如くにしては（仮定的）</a></div><div class="col-2">53</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0062.html">古典的so. ［so c1assicum］ wohl</a></div><div class="col-2">62</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0072.html">仏語のtant....（aussiニ非ズ） 後に来るso....<br />sonst</a></div><div class="col-2">72</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0087.html">然らずんば さもなければ</a></div><div class="col-2">87</div></div>');
@@ -40,7 +40,7 @@ document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0151.html">微妙なnur（悪い方の意）</a></div><div class="col-2">151</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0155.html">ただ…した<u>ばっかりに</u> 普通の<u>nur so</u></a></div><div class="col-2">155</div></div>');
 document.write('<div class="row"><div class="col-2">20-3B</div><div class="col-8"><a href="../020/s0161.html">Noch</a></div><div class="col-2">161-246</div></div>');
-document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0162.html"><u>noch lange nicht</u>.（D.Kein） なほ（一層）のnoc&lt;（比較級と）</a></div><div class="col-2">162</div></div>');
+document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0162.html"><u>noch lange nicht</u>.（D.Kein） なほ（一層）のnoch（比較級と）</a></div><div class="col-2">162</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0164.html">sogar［前置的場合のみ］最高級</a></div><div class="col-2">164</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0167.html">sogar…時問的</a></div><div class="col-2">167</div></div>');
 document.write('<div class="row"><div class="col-2"> </div><div class="col-8"><a href="../020/s0178.html">Das fehlte noch. Das fehlte noch gerade<br />と接続法。</a></div><div class="col-2">178</div></div>');
