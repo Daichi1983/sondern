@@ -26,7 +26,7 @@ document.write('<div class="row"><div class="col-2">23</div><div class="col-8"><
 document.write('<div class="row"><div class="col-2">24</div><div class="col-8"><a href="000/s0053-s0055.html">接続詞（一般） Konjunktion allg.</a></div><div class="col-2">53</div></div>');
 document.write('<div class="row"><div class="col-2">25</div><div class="col-8"><a href="000/s0056-s0062.html">接続詞（各論） Konjunktionen</a></div><div class="col-2">56</div></div>');
 document.write('<div class="row"><div class="col-2">26</div><div class="col-8"><a href="000/s0063.html">助詞 Hilfswörter</a></div><div class="col-2">63</div></div>');
-document.write('<div class="row"><div class="col-2">27</div><div class="col-8"><a href="000/s0063-s0069.html">指示詞 Demonstrativ</a></div><div class="col-2">64</div></div>');
+document.write('<div class="row"><div class="col-2">27</div><div class="col-8"><a href="000/s0064-s0069.html">指示詞 Demonstrativ</a></div><div class="col-2">64</div></div>');
 document.write('<div class="row"><div class="col-2">28</div><div class="col-8"><a href="000/s0070-s0073.html">前置詞（一般） Präposition allg.</a></div><div class="col-2">70</div></div>');
 document.write('<div class="row"><div class="col-2">29</div><div class="col-8"><a href="000/s0074-s0078.html">前置詞 Präpositionen</a></div><div class="col-2">74</div></div>');
 document.write('<div class="row"><div class="col-2">30</div><div class="col-8"><a href="000/s0079-s0084.html">数詞 Numerale</a></div><div class="col-2">79</div></div>');
@@ -48,7 +48,7 @@ document.write('<div class="row"><div class="col-2">45</div><div class="col-8"><
 document.write('<div class="row"><div class="col-2">46</div><div class="col-8"><a href="000/s0128-s0130.html">助動詞（一般） Hilfsverb allg.</a></div><div class="col-2">128</div></div>');
 document.write('<div class="row"><div class="col-2">47</div><div class="col-8"><a href="000/s0131-s0135.html">助動詞（各論） Hilfsverben</a></div><div class="col-2">131</div></div>');
 document.write('<div class="row"><div class="col-2">48</div><div class="col-8"><a href="000/s0136-s0140.html">接続法 Konjunktiv</a></div><div class="col-2">136</div></div>');
-document.write('<div class="row"><div class="col-2">49</div><div class="col-8"><a href="000/a0141-s0144.html">迂言動詞 Verba periphrastica:<br />Funktionsverbgefüge</a></div><div class="col-2">141</div></div>');
+document.write('<div class="row"><div class="col-2">49</div><div class="col-8"><a href="000/s0141-s0144.html">迂言動詞 Verba periphrastica:<br />Funktionsverbgefüge</a></div><div class="col-2">141</div></div>');
 document.write('<div class="row"><div class="col-2">50</div><div class="col-8"><a href="000/s0145-s0146.html">命令形 Imperativ</a></div><div class="col-2">145</div></div>');
 document.write('<div class="row"><div class="col-2">51</div><div class="col-8"><a href="000/s0147-s0148.html">認容文章 Konzessivsatz</a></div><div class="col-2">147</div></div>');
 document.write('<div class="row"><div class="col-2">52</div><div class="col-8"><a href="000/s0149.html">結果挙述 Resultativ.Effektiv</a></div><div class="col-2">149</div></div>');
