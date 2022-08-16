@@ -1,0 +1,42 @@
+tei-div {
+  display: block;
+}
+tei-h1 {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: x-large;
+}
+tei-title {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+  font-size: xx-large;
+}
+tei-p {
+  display: block;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+tei-list[type=simple] {
+  list-style-type: none;
+}
+tei-list[type=simple]>tei-item {
+  display: list-item;
+}
+tei-list[type=enumerate] {
+  list-style-type: decimal;
+}
+tei-list[type=enumerate]>tei-item {
+  display: list-item;
+}
+tei-hi[rend=italics] {
+  font-style: italic;
+}
+tei-lb:before {
+  white-space: pre;
+  content: "\A";
+}
+tei-u{
+  text-decoration: underline;
+}
