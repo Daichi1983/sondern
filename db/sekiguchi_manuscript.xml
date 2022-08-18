@@ -39,9 +39,9 @@
     </teiHeader>
     <text>
         <body>
-            <h1>
+            <head>
                 Manuscripts written and collected by Mr Tsugio Sekiguchi
-            </h1>
+            </head>
             <schemaSpec ident="sekiguchi_manuscript" docLang="ja" prefix="tei_" xml:lang="en">
                 <moduleRef key="core" except=""/>
                 <moduleRef key="tei" except=""/>
@@ -49,164 +49,217 @@
                 <moduleRef key="textstructure" except=""/>
             </schemaSpec>
 
-            <p xml:id="ja001" part="s0001" xml:lang="ja">
-                <title xml:lang="ja">固有名詞でもあり普通名詞でもあり:</title>
-                <cl xml:lang="ja">
-                    <lb/>1.平原名（地理）→
-                    <lb/>2.帝王名
-                    <lb/>3.風名
-                    <lb/>4.人名
-                </cl>
-                <cl xml:lang="ja"><lb/>平原</cl>
-                <cl xml:lang="de"><lb/>die Pampas. Die Llianos. Die Steppe. Tundra, -en. Wüste,</cl>
-                <cl xml:lang="de"><lb/>Die Gauchos reiten tagelang über die <u>Llianos</u>.
-                    <lb/>南米アマゾン以北の平原
-                </cl>
-                <cl xml:lang="ja">
-                    <lb/>ヤノス（中）
-                    <lb/>ジャノス（南）
-                    <lb/>リャノス（北）
-                </cl>
-            </p>
+            <div1 n="ja001" type="part">
+                <div2 n="s0001" type="chapter">
+                    <p xml:id="ja001" part="s0001" xml:lang="ja">
+                        <title xml:lang="ja">
+                            固有名詞でもあり普通名詞でもあり:
+                        </title>
+                        <cl xml:lang="ja">
+                            <list rend="index">
+                                <lb/><label>1.</label><item>平原名（地理）→</item>
+                                <lb/><label>2.</label><item>帝王名</item>
+                                <lb/><label>3.</label><item>風名</item>
+                                <lb/><label>4.</label><item>人名</item>
+                            </list>
+                        </cl>
+                        <cl xml:lang="ja"><lb/>平原</cl>
+                        <cl xml:lang="de"><lb/>die Pampas. Die Llianos. Die Steppe. Tundra, -en. Wüste,</cl>
+                        <cl xml:lang="de"><lb/>Die Gauchos reiten tagelang über die <hi>Llianos</hi>.
+                            <phr xml:lang="ja"><lb/>南米アマゾン以北の平原</phr></cl>
+                        <cl xml:lang="ja">
+                            <lb/>ヤノス（中）
+                            <lb/>ジャノス（南）
+                            <lb/>リャノス（北）
+                        </cl>
+                    </p>
+                </div2>
+            </div1>
+            
+            
+            <div1 n="ja001" type="part">
+                <div2 n="s0002" type="chapter">
+                    <p xml:id="ja001" part="s0002" xml:lang="ja">
+                        <title xml:lang="ja">名詞 固有名詞</title>
+                        <cl xml:lang="ja">
+                            <list rend="index">
+                                <lb/><label>12.</label> ging Deutschlandの問題は形容の<unclear reason="illegible">●●●●●●●</unclear>
+                                <lb/><label>13.</label>「誰彼」の意に任意の固有名詞を用ふ
+                                <lb/><pc>－</pc>指示用
+                                <lb/><label>1.</label>固有の［1］
+                                <lb/><label>2.</label>Theseus' Stadt等は「名詞、各変化」
+                                <lb/><label>3.</label>不定冠詞の場合は不定冠詞の項
+                                <lb/><label>4.</label>ein Davinci等
+                                <lb/><label>5.</label>Durch das Hessische等
+                                <lb/><label>6.</label>3固有名と定冠詞（地名、人名）
+                                <lb/><label>7.</label><hi>à la</hi> Kaiserの問題も加ふ可し。
+                                <lb/><label>8.</label>mendeln, marsen等、動詞
+                                <lb/><label>9.</label>「ein Bechstein m, ピヤノ」等は「性數」
+                                <lb/><label>10.</label>固有名として普通名を假に用ひる場合
+                                <lb/>（Freund Hain等の項）（Drei Käsehah等）
+                                <lb/><label>11.</label>固有人名のpl.は複數の冊
+                            </list>
+                        </cl>    
+                    </p>
+                </div2>
+            </div1>
 
             
-            <p xml:id="ja001" part="s0002" xml:lang="ja">
-                <title xml:lang="ja">名詞 固有名詞</title>
-                <cl xml:lang="ja">
-                    <lb/>12. ging Deutschlandの問題は形容の●●●●●●●
-                    <lb/>13.「誰彼」の意に任意の固有名詞を用ふ
-                    <lb/>－指示用
-                    <lb/>1.固有の［1］
-                    <lb/>2.Theseus' Stadt等は「名詞、各変化」
-                    <lb/>3.不定冠詞の場合は不定冠詞の項
-                    <lb/>4.ein Davinci等
-                    <lb/>5.Durch das Hessische等
-                    <lb/>6.3固有名と定冠詞（地名、人名）
-                    <lb/>7.<u>à la</u> Kaiserの問題も加ふ可し。
-                    <lb/>8.mendeln, marsen等、動詞
-                    <lb/>9.「ein Bechstein m, ピヤノ」等は「性數」
-                    <lb/>10.固有名として普通名を假に用ひる場合
-                    <lb/>（Freund Hain等の項）（Drei Käsehah等）
-                    <lb/>11.固有人名のpl.は複數の冊
-                </cl>    
-            </p>
+            <div1 n="ja001" type="part">
+                <div2 n="s0003" type="chapter">
+                    <p xml:id="ja001" part="s0003" xml:lang="ja">
+                        <title xml:lang="ja">［1］固有地名は元則として中性。</title>
+                        <cl xml:lang="de">
+                            <list rend="index">
+                                <lb/><label>1.</label> <quote>Ich machte bei dieser Gelegenheit die Bemerkung: Berlin ist ein groß<hi>es</hi> Krähwinkel.
+                                <lb/>（Winkelは男性なるに）Heine Briefe aus Berlin</quote>
+                            </list>
+                        </cl>
+                        <cl xml:lang="en">
+                            <lb/><quote>（英 she） the Japanese delegation declared that Japan has an intention of renouncing <hi>her</hi> claim and that <hi>she</hi> will have the conference rather than accept what <hi>she</hi> does not want. (Z.)</quote>
+                        </cl>
+                        <cl xml:lang="de">
+                            <lb/><quote>Das ist übrigens von der Natur ganz weise so eingerichtet, der lebiglich dadurch, daßman die Lebensleiter nur auf dem Umweg über die untersten Stufen erklimmt, <hi>lernt man, wie einem da unten zumute ist. Dies ist wichtig für später, wenn man höher hinauf gelangt ist.</hi>
+                            <lb/><hi>Du kannst dich also drehen und wenden wie du willst, um den Moses kommst du nicht herum.</hi> Beim Kaufmann muß der Moses Tüten kleben, der Gelehrtenmoses muß im stillen Kämmerlein mühsam die Geistesbröcklein sammeln und sich einpacken. Beide <hi>haben oft die Nase voll.</hi> Bei uns ist es ähnlich, mit dem einzigen Untersched, daß es bei uns mehrere <hi>Mosese</hi> gibt, so daß sich die Arbeit verteilt und darum leichter fällt. Zudem weden deutsche Soldaten nie schlecht behandelt. Im Gegentail, hier ist es die heilige Pflicht des älteren, für den Tüngeren zu sorgen.
+                            <lb/>Trotzdem aber, mein Leiber, denke ja nicht, daß der U-Boot-Moses immer mit seinem Geschick zufrieden ist. Auch er hat, wie aesaat, sein Dasein oft reichlich satt und müchte in seiner Verzweiflung manchmal die Hoffnung aufgeben, jemals noch etwas zu werden bei der Marine. Hier scheiden sich dann die Gutn und die Schlechten. Denn <hi>wer was taugt der beißt sich hindurch</hi> durch diese scheinbar unerträglichen Augenblicke. <hi>Auch wir haben das alles durchmachen müssen</hi> und wissen, daß man im Leben Haare auf den Zähnen haben muß, um sein Ziel zu erreichen.</quote>
+                        </cl>
+                    </p>
+                </div2>
+            </div1>
 
             
-            <p xml:id="ja001" part="s0003" xml:lang="ja">
-                <title xml:lang="ja">［1］固有地名は元則として中性。</title>
-                <cl xml:lang="de">
-                    <lb/>1. Ich machte bei dieser Gelegenheit die Bemerkung: Berlin ist ein groß<u>es</u> Krähwinkel.
-                    <lb/>（Winkelは男性なるに）Heine Briefe aus Berlin
-                </cl>
-                <cl xml:lang="en">
-                    <lb/>（英 she） the Japanese delegation declared that Japan has an intention of renouncing <u>her</u> claim and that <u>she</u> will have the conference rather than accept what <u>she</u> does not want. (Z.)
-                </cl>
-                <cl xml:lang="de">
-                    <lb/>Das ist übrigens von der Natur ganz weise so eingerichtet, der lebiglich dadurch, daßman die Lebensleiter nur auf dem Umweg über die untersten Stufen erklimmt, <u>lernt man, wie einem da unten zumute ist. Dies ist wichtig für später, wenn man höher hinauf gelangt ist.</u>
-                    <lb/><u>Du kannst dich also drehen und wenden wie du willst, um den Moses kommst du nicht herum.</u> Beim Kaufmann muß der Moses Tüten kleben, der Gelehrtenmoses muß im stillen Kämmerlein mühsam die Geistesbröcklein sammeln und sich einpacken. Beide <u>haben oft die Nase voll.</u> Bei uns ist es ähnlich, mit dem einzigen Untersched, daß es bei uns mehrere <u>Mosese</u> gibt, so daß sich die Arbeit verteilt und darum leichter fällt. Zudem weden deutsche Soldaten nie schlecht behandelt. Im Gegentail, hier ist es die heilige Pflicht des älteren, für den Tüngeren zu sorgen.
-                    <lb/>Trotzdem aber, mein Leiber, denke ja nicht, daß der U-Boot-Moses immer mit seinem Geschick zufrieden ist. Auch er hat, wie aesaat, sein Dasein oft reichlich satt und müchte in seiner Verzweiflung manchmal die Hoffnung aufgeben, jemals noch etwas zu werden bei der Marine. Hier scheiden sich dann die Gutn und die Schlechten. Denn <u>wer was taugt der beißt sich hindurch</u> durch diese scheinbar unerträglichen Augenblicke. <u>Auch wir haben das alles durchmachen müssen</u> und wissen, daß man im Leben Haare auf den Zähnen haben muß, um sein Ziel zu erreichen.
-                </cl>
-            </p>
+            <div1 n="ja001" type="part">
+                <div2 n="s0004" type="chapter">
+                    <p xml:id="ja001" part="s0004" xml:lang="ja">
+                        <title xml:lang="ja">［2］二格で =s</title>
+                        <cl xml:lang="de">
+                            <list rend="index">
+                                <lb/><label>1.</label> Glocken <hi>Berlins</hi> verkündeten mit ehernem Munde den gewaltigen Sieg <hi>Hindenburgs</hi>. (Ury)
+                                <lb/><label>2.</label>Durch Jahrhunderte blieb nun <hi>die Sprache</hi><unclear reason="illegible">●●●●●●●</unclear>
+                                <lb/>
+                                <label>
+                                    <choice>
+                                        <corr>3.</corr>
+                                        <sic>2.</sic>
+                                    </choice>
+                                </label>
 
-            <p xml:id="ja001" part="s0004" xml:lang="ja">
-                <title xml:lang="ja">［2］二格で =s</title>
-                <cl xml:lang="de">
-                    <lb/>1.die Glocken <u>Berlins</u> verkündeten mit ehernem Munde den gewaltigen Sieg <u>Hindenburgs</u>. (Ury)
-                    <lb/>2.Durch Jahrhunderte blieb nun <u>die Sprache</u>
+                                <lb/>in Europa erst recht das Ausdrie*** mittel für Geist und die redende Künste.(Johannes Bühler, Die Kultur Des Millelalters I.)
+                                <lb/><label>3.</label>Die Ukraine ist die Kornkammer <hi>Rußlands</hi>?
+                                <lb/><label>5.</label>der mongolische Prinz Teh soll ein direkter Nachkomme <hi>Dschingis Khans</hi> sein. (Z. 1937)
+                                <lb/><label>7.</label>（所有的二格以外の場合も然り）
+                                <lb/>Nur <hi>Lea's</hi> erwähnte er mit keiner Silbe. (Hauft: Jud Süß, 7.)
 
-
-                    <lb/>in Europa erst recht das Ausdrie*** mittel für Geist und die redende Künste.(Johannes Bühler, Die Kultur Des Millelalters I.)
-                    <lb/>3.Die Ukraine ist die Kornkammer <u>Rußlands</u>?
-                    <lb/>5.der mongolische Prinz Teh soll ein direkter Nachkomme <u>Dschingis Khans</u> sein. (Z. 1937)
-                    <lb/>7.（所有的二格以外の場合も然り）
-                    <lb/>Nur <u>Lea's</u> erwähnte er mit keiner Silbe. (Hauft: Jud Süß, 7.)
-
-                    <lb/>PARADIGMA
-                    <lb/>8.<u>Sbakospear</u> wurde im Todesjahr <u>Michelangelos</u> geboren.
-                </cl>
-            </p>
-            
-            <p xml:id="ja001" part="s0006" xml:lang="ja">
-                <title xml:lang="ja">普通名詞の固有名詞扱ひ、無冠詞！</title>
-                <cl xml:lang="de">
-                    <lb/>1. (Präsidents) Aber der größe Teil det Conversation am andern Ende des Tisches galt Präsidents Ida. (Hauff: Der Mann im Monde I)
-                    <lb/>2. Das wohl, Ich mag alle Tiere leiden, obgleich Tante mirs nicht glauben will. Tantes Hunde sind ein bißchen ungeyogen und dann -
-                    <lb/>(L. Westkirch: Aus dem Hexenkessel der Zeit)
-                    <lb/>3. Mutters Bargeld ist immer knapp.
-                    <lb/>(%) Vater lag es viel daran, dass wir rechtzeitig zum Frühstück herunterkamen.
-                </cl>
-                <cl xml:lang="en">
-                    <lb/>英 4.When Father died in 1910 Mother was left with practically no money and us five children.
-                </cl>
-                <cl xml:lang="de">
-                    <lb/>(RERalph Moody: Man of the Family)
-                    <lb/>5. Mutters Geburstsag. (DUDEN)
-                    <lb/>6. ruf mal Mutter(n)l (DUDEN)
-                    <lb/>7. Unter neuen Hurrahs entführte der Zug den hohen Durchreisenden, und wir hatten Geschichte gesehen. (Th. Mann. Meine Zeit)
-                    <lb/>幼時 Wilhelm der Erste を Lübeck で見た話。
-                    <lb/>（9）頁
-                    <lb/>8. FRITZ: Gibbt der Großvatern viel Geld?
-                    <lb/>(Die Weber, II)
-                </cl>
-            </p>
-
-            <p xml:id="ja001" part="s0007" xml:lang="ja">
-                <cl xml:lang="ja">
-                    <lb/>蘭語
-                </cl>
-                <cl xml:lang="de">
-                    <lb/>Die Verwandtschaftsnamen werden im Holl. oft als Eigennemen gebraucht. Im Deuschen fügt man in diesem Fall gern den bestimmten Artikel hinyu, im Holl. nicht.
-                </cl>
-                <cl xml:lang="de">
-                    <lb/>Der Vater ruft.
-                </cl>
-                <cl xml:lang="nl">
-                    <lb/>vader roept.
-                </cl>
-                <cl xml:lang="de">
-                    <lb/>Ich gehe zum Onkel.
-                    <lb/>    zur Tante.
-                </cl>
-                <cl xml:lang="nl">
-                    <lb/>ik gaa naar oom.
-                    <lb/>       naar tante.
-                </cl>
-                <cl xml:lang="de">
-                    <lb/>Das habe ich vom Großvater bekommen:vader roept.
-                </cl>
-                <cl xml:lang="nl">
-                    <lb/>Dat heb ik van grootvader gekregen.
-                </cl>
-
-                <title xml:lang="ja">
-                    Hildeの二格
-                    <lb/>Hild<u>en</u>等
-                </title>
+                                <lb/>PARADIGMA
+                                <lb/><label>8.</label><hi>Sbakospear</hi> wurde im Todesjahr <hi>Michelangelos</hi> geboren.
+                            </list>
+                        </cl>
+                    </p>
+                </div2>
+            </div1>
                     
-                <cl xml:lang="mhd">
-                    <lb/>MHD dô sprach diu <u>Hilden</u> tohter:
-                    <lb/>(Kudrun 1632)
-                </cl>
-            </p>
+            
+            <div1 n="ja001" type="part">
+                <div2 n="s0006" type="chapter">
+                    <p xml:id="ja001" part="s0006" xml:lang="ja">
+                        <title xml:lang="ja">普通名詞の固有名詞扱ひ、無冠詞！</title>
+                        <cl xml:lang="de">
+                                <list rend="index">
+                                    <lb/><label>1.</label><quote> (Präsidents) Aber der größe Teil det Conversation am andern Ende des Tisches galt Präsidents Ida. (Hauff: Der Mann im Monde I)</quote>
+                                    <lb/><label>2.</label> <quote>Das wohl, Ich mag alle Tiere leiden, obgleich Tante mirs nicht glauben will. Tantes Hunde sind ein bißchen ungeyogen und dann -
+                                    <lb/>(L. Westkirch: Aus dem Hexenkessel der Zeit)</quote>
+                                    <lb/><label>3.</label> Mutters Bargeld ist immer knapp.
+                                    <lb/>(%) Vater lag es viel daran, dass wir rechtzeitig zum Frühstück herunterkamen.
+                            </list>
+                        </cl>
+                        <cl xml:lang="en">
+                            <lb/>英 4.When Father died in 1910 Mother was left with practically no money and us five children.
+                        </cl>
+                        <cl xml:lang="de">
+                            <list rend="index">
+                                <lb/>(RERalph Moody: Man of the Family)
+                                <lb/><label>5.</label> Mutters Geburstsag. (DUDEN)
+                                <lb/><label>6.</label> ruf mal Mutter(n)l (DUDEN)
+                                <lb/><label>7.</label> Unter neuen Hurrahs entführte der Zug den hohen Durchreisenden, und wir hatten Geschichte gesehen. (Th. Mann. Meine Zeit)
+                                <lb/>幼時 Wilhelm der Erste を Lübeck で見た話。
+                                <lb/>（9）頁
+                                <lb/><label>8.</label> <quote>FRITZ: Gibbt der Großvatern viel Geld?
+                                <lb/>(Die Weber, II)</quote>
+                            </list>
+                        </cl>
+                    </p>
+                </div2>
+            </div1>
 
 
-            <p xml:id="ja001" part="s0008" xml:lang="ja">
-                <cl xml:lang="ja">
-                    [3]Unter den Lindenの格変化
-                </cl>
-                <cl xml:lang="de">
-                    <lb/>1. Wollen wir nachmittags Unter den Linden gehen? (IV)
-                    <lb/>2. Er geht Unter den Linden spazieren. (III)
-                    <lb/>3. Ausserdem wurde eine neue Straßen: und Lau***** der **** zwischen den Linden und der ********** ********* (Z. 1939)
-                    <lb/><u>Ein gewisser</u> Herr ～
-                </cl>
-                <cl xml:lang="ja">
-                    <lb/>伊 
-                </cl>
-                <cl xml:lang="it">
-                    <lb/>Son vainguer fut <u>un nommé</u> Pierre Daval
-                </cl>
-            </p>
+            
+            <div1 n="ja001" type="part">
+                <div2 n="s0007" type="chapter">
+                    <p xml:id="ja001" part="s0007" xml:lang="ja">
+                        <cl xml:lang="ja">
+                            <lb/>蘭語
+                        </cl>
+                        <cl xml:lang="de">
+                            <lb/>Die Verwandtschaftsnamen werden im Holl. oft als Eigennemen gebraucht. Im Deuschen fügt man in diesem Fall gern den bestimmten Artikel hinzu, im Holl. nicht.
+                        </cl>
+                        <cl xml:lang="de">
+                            <lb/>Der Vater ruft.
+                        </cl>
+                        <cl xml:lang="nl">
+                            <lb/>vader roept.
+                        </cl>
+                        <cl xml:lang="de">
+                            <lb/>Ich gehe zum Onkel.
+                            <lb/>    zur Tante.
+                        </cl>
+                        <cl xml:lang="nl">
+                            <lb/>ik gaa naar oom.
+                            <lb/>       naar tante.
+                        </cl>
+                        <cl xml:lang="de">
+                            <lb/>Das habe ich vom Großvater bekommen:vader roept.
+                        </cl>
+                        <cl xml:lang="nl">
+                            <lb/>Dat heb ik van grootvader gekregen.
+                        </cl>
+
+                        <title xml:lang="ja">
+                            Hildeの二格
+                            <lb/>Hild<hi>en</hi>等
+                        </title>
+                            
+                        <cl xml:lang="mhd">
+                            <lb/>MHD dô sprach diu <hi>Hilden</hi> tohter:
+                            <lb/>(Kudrun 1632)
+                        </cl>
+                    </p>
+                </div2>
+            </div1>
+
+            
+            <div1 n="ja001" type="part">
+                <div2 n="s0008" type="chapter">
+                    <p xml:id="ja001" part="s0008" xml:lang="ja">
+                        <cl xml:lang="ja">
+                            [3]Unter den Lindenの格変化
+                        </cl>
+                            <cl xml:lang="de">
+                                <list rend="index">
+                                    <lb/><label>1.</label> Wollen wir nachmittags Unter den Linden gehen? (IV)
+                                    <lb/><label>2.</label> Er geht Unter den Linden spazieren. (III)
+                                    <lb/><label>3.</label> <quote>Ausserdem wurde eine neue Straßen: und Lau<unclear reason="illegible">*****</unclear> auf der <unclear reason="illegible">****</unclear> zwischen den Linden und der <unclear reason="illegible">********** *********</unclear> (Z. 1939)</quote>
+                                    <lb/><hi>Ein gewisser</hi> Herr ～
+                                </list>
+                        </cl>
+                        <cl xml:lang="ja">
+                            <lb/>伊 
+                        </cl>
+                        <cl xml:lang="it">
+                            <lb/><quote>Son vainguer fut <hi>un nommé</hi> Pierre Daval</quote>
+                        </cl>
+                    </p>
+                </div2>
+            </div1>
 
 
         </body>
