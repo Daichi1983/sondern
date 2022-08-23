@@ -82,12 +82,10 @@
             
             <div1 n="ja001" type="part">
                 <div2 n="s0002" type="chapter">
+                    <figure xml:id="ja001" part="s0002">
+                        <graphic url="/img/001/S0002.gif"  width="50%"/>
+                    </figure>
                     <p xml:id="ja001" part="s0002" xml:lang="ja">
-                        <figure>
-                            <graphic url="/img/001/S0002.gif" />
-                        </figure>
-
-
                         <title xml:lang="ja">名詞 固有名詞</title>
                         <cl xml:lang="ja">
                             <list rend="index">
