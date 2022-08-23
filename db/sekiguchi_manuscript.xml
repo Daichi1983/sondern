@@ -40,7 +40,8 @@
     <text>
         <body>
             <head>
-                Manuscripts written and collected by Mr Tsugio Sekiguchi
+                Manuscripts written and collected by Tsugio Sekiguchi<lb/>
+                Handschriften, geschrieben und gesammelt von Tsugio Sekiguchi<lb/>
             </head>
             <schemaSpec ident="sekiguchi_manuscript" docLang="ja" prefix="tei_" xml:lang="en">
                 <moduleRef key="core" except=""/>
