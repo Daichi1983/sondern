@@ -24,7 +24,7 @@
                 </p>
                 <authority> Tsugio Sekiguchi </authority> 
                 <pubPlace> Tokyo </pubPlace> 
-                <date> 1930-1960 </date> 
+                <date> 1930-1958 </date> 
             </publicationStmt>
             <notesStmt> 
                 <note>大阪大学所蔵の関口存在男文例集のスキャンデータ</note> 
@@ -50,11 +50,17 @@
                 <moduleRef key="textstructure" except=""/>
             </schemaSpec>
 
+            <facsimile>
+                <zone xml:id="ja001" part="s0001">
+                    <graphic url="/img/001/S0001.gif" width="50%"/>
+                </zone>
+                <zone xml:id="ja001" part="s0002">
+                    <graphic url="/img/001/S0002.gif" width="50%"/>
+                </zone>
+            </facsimile>
+                
             <div1 n="ja001" type="part">
                 <div2 n="s0001" type="chapter">
-                    <figure xml:id="ja001" part="s0001">
-                        <graphic url="/img/001/S0001.gif" width="50%"/>
-                    </figure>
                     <p xml:id="ja001" part="s0001" xml:lang="ja">
                         <title xml:lang="ja">
                             固有名詞でもあり普通名詞でもあり:
@@ -83,9 +89,6 @@
             
             <div1 n="ja001" type="part">
                 <div2 n="s0002" type="chapter">
-                    <figure xml:id="ja001" part="s0002">
-                        <graphic url="/img/001/S0002.gif"  width="50%"/>
-                    </figure>
                     <p xml:id="ja001" part="s0002" xml:lang="ja">
                         <title xml:lang="ja">名詞 固有名詞</title>
                         <cl xml:lang="ja">
