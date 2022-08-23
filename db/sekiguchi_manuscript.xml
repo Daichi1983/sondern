@@ -51,6 +51,9 @@
 
             <div1 n="ja001" type="part">
                 <div2 n="s0001" type="chapter">
+                    <figure xml:id="ja001" part="s0001">
+                        <graphic url="/img/001/S0001.gif" width="50%"/>
+                    </figure>
                     <p xml:id="ja001" part="s0001" xml:lang="ja">
                         <title xml:lang="ja">
                             固有名詞でもあり普通名詞でもあり:
@@ -80,6 +83,11 @@
             <div1 n="ja001" type="part">
                 <div2 n="s0002" type="chapter">
                     <p xml:id="ja001" part="s0002" xml:lang="ja">
+                        <figure>
+                            <graphic url="/img/001/S0002.gif" />
+                        </figure>
+
+
                         <title xml:lang="ja">名詞 固有名詞</title>
                         <cl xml:lang="ja">
                             <list rend="index">
@@ -261,6 +269,150 @@
                 </div2>
             </div1>
 
+
+            
+            <div1 n="ja001" type="part">
+                <div2 n="s0010" type="chapter">
+                    <p xml:id="ja001" part="s0010" xml:lang="ja">
+                        <title xml:lang="de">
+                            Jan<hi>enser</hi> statt Janaer
+                        </title>
+                            <cl xml:lang="de">
+                                <list rend="index">
+                                    <lb/><label>1.</label> <quote>Goethe hat einen leidlich gelungenen Ursuch gemacht, für die Weimarer Literaten und die <hi>Janenser</hi> Gelehrten einen ausgleichenden mittelpunkt zu schaffen. (Johannes Scherr: Menschliche Tragikomödie)</quote>
+                                    <lb/><label>2.</label> <quote>Die 1 <add place="above">1/2</add> Jahre in <hi>Halle</hi> waren für mich eine Zeit schöner förderlicher Arbeit. Für die nötige Erholung sorgte eine rege Gesellingkeit und einiger Sport. Sehr erfreulich awr auch der <hi>Hallenser</hi> Referendarvverein, in dem wir noch mano mal in studentischer Art fröhlich waren.
+                                    <lb/>(Robert Hippel, in "Rechtswissenschaft in Selbstdarstellungen)</quote>
+                                </list>
+                        </cl>
+                        <title xml:lang="ja">
+                            Takaier等、酒名
+                        </title>
+                        <cl xml:lang="de">
+                            <list rend="index">
+                                <lb/><label>1.</label> <quote>Den odlen Hochheimer, Bacheracher und Klingenberger gossen sie mit Kübelmässigen Gläsern in Magen hinunter.
+                                <lb/>(Simplizissimus 1. 30)</quote>
+                                <lb/><label>2.</label> <quote>An solchen Tagen floß auf der Hauptwache (Stadtgarde) eiteöl <hi>Rüdesheimer</hi> und <hi>Aßmannahäuser</hi> von den vortrefflichsten Jahrgängen, (Heine, Memoiren)</quote>
+                            </list>
+                        </cl>
+                    </p>
+                </div2>
+            </div1>
+
+
+            <div1 n="ja001" type="part">
+                <div2 n="s0011" type="chapter">
+                    <p xml:id="ja001" part="s0011" xml:lang="ja">
+                        <title xml:lang="de">
+                            Berlin=er (2)
+                        </title>
+                        <cl xml:lang="de">
+                            <lb/>Verlängerter Weihnachtsurlaub
+                            <lb/>Bonn, 27. Dezember (UP). Der Bundeskanyler wird voraussichtlich erst nach Neujahr seine Amtsgeschäfte im <hi>Bonner</hi> Palais Schaumburg wiederaufnehmen. Wie am Dienstag aus Regierungskreisen mitgeteilt wurde, will sich der Bundeskanzler bis dahin in seinem <hi>Rhöndorfer</hi> Heim im Familienkreise noch einige Tage der Ruhe gönnen.
+                        </cl>
+                        <cl xml:lang="ja">
+                            <lb/>NB schweizerischが公式で
+                            <lb/>Schweizerは通俗
+                        </cl>
+                        <cl xml:lang="de">
+                            <list rend="index">
+                                <lb/><label>7.</label> der schweizerische Botschafter
+                                <lb/>(nicht: der Schweizer Botschafter)
+                                <lb/>aber:
+                                <lb/>der Schweizer Käse. Schweizer Kühe.
+                                <lb/><hi>Schweizerdeutsch</hi>. Schweizerland. Schweizerhäuschen.
+                                <lb/><label>8.</label> Sófià (Bulgarien首都)
+                                <lb/>sofiater～とあり。
+                                <lb/><label>9.</label>Kandia = (Kreta)
+                                <lb/>Kandiote, Kandiat)
+                                <lb/>Kandiater
+                            </list>
+                        </cl>
+                    </p>
+                </div2>
+            </div1>
+
+            <div1 n="ja001" type="part">
+                <div2 n="s0012" type="chapter">
+                    <p xml:id="ja001" part="s0012" xml:lang="ja">
+                        <title xml:lang="de">
+                            =er (4)
+                        </title>
+                        <cl xml:lang="de">
+                            <lb/>科Die Leidener (od. Leydener) Flasche ライデン鏝
+                            <lb/>Die Bremer Musikanten.
+                            <lb/>Türinger Wald.
+                            <lb/>Münchener Bier.
+                            <lb/>Göttinger Universtät
+                            <lb/>Züricher See
+                            <lb/>Leipziger Messe
+                            <lb/>Teutoburger Wald
+                            <lb/>Londoner Konferenz
+                            <lb/>Pariser
+                            <lb/>Wiener
+                            <lb/>Tokioer, Tokioter
+                            <lb/>Der Londoner Flugplatz Croydon.
+                            <lb/>des Heidelberger Schloß
+                            <lb/>Chungkinger Regierung.
+                            <lb/>Nankinger Nationalregierung.die Schwarzwälder Uhr.
+                            <lb/>der Genfer Völkerbund.
+                            <lb/>die Tannenberger Schlacht.
+                            <lb/>die Moskauer Regierung.
+                            <lb/>Anhalter Bahnhof.
+                            <lb/>Schweizer
+                            <lb/>Heidelberger Schloss?
+                            <lb/>Die Hamburger Dramaturgie
+                            <lb/>Leipziger Straße
+                        </cl>
+                        <cl xml:lang="de">
+                            <list rend="index">
+                                <lb/><label>1.</label><quote>Der <hi>Honoluluer</hi> "Star Bulletin" veröffentlicht den Augenzeugenbericht eines Ueberlebenden des britischen Dampfers "Delphin", der diesem Bericht zufolge bei der Einfahrt in Lyttelton Harbour auf Neuseeland durch britische Festungsgeschütze irrtümlich versenkt wurde. (Z. 1939. Nov.)</quote>
+                                <lb/><label>2.</label><quote>Einer <hi>Washingtoner</hi> nachricht zufolge machte das Marine amt der Vereinigten Staaten am Sonntag bekannt, dass nipponische Kampfflugzeuge am Freitagabend die 19 Meilen nördlich von der Insel Guadalcanar liegende Insel Savo bombardierten.
+                                <lb/>(Z. 1943,)</quote>
+                                <ln/><label>3.</label><quote>Es ist das unsterbliche Verdienst des <hi>Heilbronner</hi> Arztes Robert Mayer, durch scharfsinnige Deduktionen nachgewiesen zu haben (1842), dass die Umwandlung von mechanischer Arbeit in Wärme stets nach unwandelbaren Gesetzen erfolgt. (W. Guttmann: Grundriß der Physik)</quote>
+                                <lb/><label>4.</label><quote>Meinen ersten Unterricht erhield ich in einer Berliner Realschule. (Paul Krüger, Jurist)></quote>
+                                <lb/><label>5.</label>><quote>Ich bin ein Zürcher Buchhandlungsgehilfe. Z. 1952.></quote>
+                                <lb/>LIES MIT.
+                                <lb/>("* statt Züricher)
+                            </list>
+                        </cl>
+                        <cl xml:lang="de">
+                            例外： Zür(i)cher
+                        </cl>
+                    </p>
+                </div2>
+            </div1>
+
+
+            <div1 n="ja001" type="part">
+                <div2 n="s0013" type="chapter">
+                    <p xml:id="ja001" part="s0013" xml:lang="ja">
+                        <title xml:lang="de">
+                            =er
+                        </title>
+                        <cl xml:lang="ja">
+                            <lb/>NB 國名ではSchweizのみが～erか？
+                        </cl>
+                        <cl xml:lang="de">
+                            <list rend="index">
+                                <lb/><label>1.</label>Die <hi>Schweizer</hi> Mount-Everst-Expedition 1952.
+                            </list>
+                        </cl>
+                        <cl xml:lang="ja">
+                            <list rend="index">
+                                <lb/><label>2.</label>住民の=erは別紙
+                            </list>
+                        </cl>
+                        <cl xml:lang="ja">
+                            英 America → American
+                        </cl>
+                        <cl xml:lang="en">
+                            <list rend="index">
+                                <lb/><label>1.</label>The <hi>Incan</hi> empire. (Inca, South America)
+                            </list>
+                        </cl>
+                    </p>
+                </div2>
+            </div1>
 
         </body>
     </text>
