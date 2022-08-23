@@ -51,12 +51,14 @@
             </schemaSpec>
 
             <facsimile>
-                <zone xml:id="ja001" part="s0001">
-                    <graphic url="/img/001/S0001.gif" width="50%"/>
-                </zone>
-                <zone xml:id="ja001" part="s0002">
-                    <graphic url="/img/001/S0002.gif" width="50%"/>
-                </zone>
+                 <surface ulx="0" uly="0" lrx="500" lry="321">
+                    <zone xml:id="ja001" part="s0001">
+                        <graphic url="/img/001/S0001.gif" width="50%"/>
+                    </zone>
+                    <zone xml:id="ja001" part="s0002">
+                        <graphic url="/img/001/S0002.gif" width="50%"/>
+                    </zone>
+                </surface>
             </facsimile>
                 
             <div1 n="ja001" type="part">
