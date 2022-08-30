@@ -17,8 +17,83 @@
 
   </script>
 
+
 </head>
 <body>
   
+
+<p>
+  Manuscripts written and collected by Tsugio Sekiguchi<br />
+  Handschriften, geschrieben und gesammelt von Tsugio Sekiguchi
+</p>
+<div>
+  <select name="apply_type">
+    <option value="1">Programmer</option>
+    <option value="2">Life</option>
+  </select>
+</div>
+<p id="text1">Programmer</p>
+<p id="text2" style="display:none">Life</p>
+
+  
+<div>
+  <select id="selbox" onchange="change();">
+    <option value="1">Programmer</option>
+    <option value="2">Life</option>
+  </select>
+</div>
+
+<p id="txt1">Programmer</p>
+<p id="txt2" style="display:none">Life</p>
+
+
+<div>
+  <select id="manuscript" id="text" onchange="manuscript();text();">
+    <option value="1">固有名詞でもあり普通名詞でもあり</option>
+    <option value="2">固有名詞</option>
+  </select>
+</div>
+
 </body>
+<script>
+
+function change() {
+  if (document.getElementById("selbox")) {
+    selboxValue = document.getElementById("selbox").value;
+    if (selboxValue == "1") {
+      //文字1を表示
+      document.getElementById("txt1").style.display = "";
+      //文字2を非表示
+      document.getElementById("txt2").style.display = "none";
+    } else if (selboxValue == "2") {
+      //文字2を表示
+      document.getElementById("txt2").style.display = "";
+      //文字1を非表示
+      document.getElementById("txt1").style.display = "none";
+    }
+  }
+}
+
+function manuscript() {
+  if (document.getElementById("manuscript")) {
+    manuValue = document.getElementById("manuscript").value;
+    if (manuValue == "1") {
+      //文字1を表示
+      document.getElementById("s0001").style.display = "";
+      document.getElementById("t0001").style.display = "";
+      //文字2を非表示
+      document.getElementById("s0002").style.display = "none";
+      document.getElementById("t0002").style.display = "none";
+    } else if (manuValue == "2") {
+      //文字1を非表示
+      document.getElementById("s0001").style.display = "none";
+      document.getElementById("t0001").style.display = "none";
+      //文字2を表示
+      document.getElementById("s0002").style.display = "";
+      document.getElementById("t0002").style.display = "";
+    }
+  }
+}
+
+</script>
 </html>
