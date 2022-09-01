@@ -8,12 +8,32 @@
   <link rel="stylesheet" href="../css/tei.css">
     <script src="../js/CETEI.js"></script>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+
   <script>
 
    let c = new CETEI();
   c.getHTML5('sekiguchi_manuscript.xml', function(data) {
     document.getElementsByTagName("body")[0].appendChild(data);
   });
+
+  $(function(){
+  $('#selectImage').change(function () {
+    //選択したoptionのvalueを取得
+    let val = $(this).val();
+    //先頭に#を付けてvalueの値をidに変換
+    let selectImageId2 = '#' + val;
+    let selectImageId = '[id=' + val; +']';
+    //一度すべてのブロックを非表示にする
+    $('tei-surface tei-zone, tei-div1 tei-div2').hide();
+    //選択したブロックのみを表示
+    $(selectImageId).show();
+  });
+});
+  
+
+
 
   </script>
 
@@ -22,82 +42,17 @@
 <body>
   
 
-<p>
-  Manuscripts written and collected by Tsugio Sekiguchi<br />
-  Handschriften, geschrieben und gesammelt von Tsugio Sekiguchi
-</p>
-<div>
-  <select name="apply_type">
-    <option value="1">Programmer</option>
-    <option value="2">Life</option>
-  </select>
-</div>
-<p id="text1">Programmer</p>
-<p id="text2" style="display:none">Life</p>
-
-  
-<div>
-  <select id="selbox" onchange="change();">
-    <option value="1">Programmer</option>
-    <option value="2">Life</option>
-  </select>
-</div>
-
-<p id="txt1">Programmer</p>
-<p id="txt2" style="display:none">Life</p>
-
 
 <div>
-  <select id="manuscript" id="text" onchange="manuscript();text();">
-    <option value="1">固有名詞でもあり普通名詞でもあり</option>
-    <option value="2">固有名詞</option>
+  <select id="selectImage">
+    <option value="s0001">固有名詞でもあり普通名詞でもあり</option>
+    <option value="s0002">固有名詞</option>
+    <option value="s0003">［01］固有地名は原則として中性</option>
+    <option value="s0004">［02］ニ格で=es</option>
+    <option value="s0008">［03］Unter den Lindenの格変化</option>
+    <option value="s0009">［04］=e</option>
   </select>
 </div>
 
 </body>
-<script>
-
-function change() {
-  if (document.getElementById("selbox")) {
-    selboxValue = document.getElementById("selbox").value;
-    if (selboxValue == "1") {
-      //文字1を表示
-      document.getElementById("txt1").style.display = "";
-      //文字2を非表示
-      document.getElementById("txt2").style.display = "none";
-    } else if (selboxValue == "2") {
-      //文字2を表示
-      document.getElementById("txt2").style.display = "";
-      //文字1を非表示
-      document.getElementById("txt1").style.display = "none";
-    }
-  }
-}
-
-function manuscript() {
-  if (document.getElementById("manuscript")) {
-    manuValue = document.getElementById("manuscript").value;
-    if (manuValue == "1") {
-      //文字1を表示
-      document.getElementById("s0001").style.display = "";
-      document.getElementById("t0001").style.display = "";
-      document.getElementById("s0002").style.float = "left";
-      document.getElementById("t0002").style.float = "left";
-      //文字2を非表示
-      document.getElementById("s0002").style.display = "none";
-      document.getElementById("t0002").style.display = "none";
-    } else if (manuValue == "2") {
-      //文字1を非表示
-      document.getElementById("s0001").style.display = "none";
-      document.getElementById("t0001").style.display = "none";
-      //文字2を表示
-      document.getElementById("s0002").style.display = "";
-      document.getElementById("t0002").style.display = "";
-      document.getElementById("s0002").style.float = "left";
-      document.getElementById("t0002").style.float = "left";
-    }
-  }
-}
-
-</script>
 </html>

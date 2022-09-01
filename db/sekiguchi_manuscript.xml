@@ -54,53 +54,53 @@
 
 
             <facsimile>
-                 <surface ulx="0" uly="0" lrx="500" lry="321" id="manuscript" onchange="manuscript();">
-                    <zone xml:id="ja001" part="s0001" id="s0001">
-                        <graphic url="https://sondern.netlify.app/img/001/S0001.gif" width="50%"/>
+                 <surface ulx="0" uly="0" lrx="500" lry="321">
+                   <zone xml:id="ja001" part="s0001" id="s0001">
+                        <graphic url="/img/001/S0001.gif"/>
                     </zone>
                     <zone xml:id="ja001" part="s0002" id="s0002">
-                        <graphic url="https://sondern.netlify.app/img/001/S0002.gif" width="50%"/>
+                        <graphic url="/img/001/S0002.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0003">
-                        <graphic url="/img/001/S0003.gif" width="50%"/>
+                    <zone xml:id="ja001" part="s0003" id="s0003">
+                        <graphic url="/img/001/S0003.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0004">
-                        <graphic url="/img/001/S0004.gif" width="50%"/>
+                    <zone xml:id="ja001" part="s0004" id="s0004">
+                        <graphic url="/img/001/S0004.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0005">
-                        <graphic url="/img/001/S0005.gif" width="50%"/>
+                    <zone xml:id="ja001" part="s0005" id="s0005">
+                        <graphic url="/img/001/S0005.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0006">
-                        <graphic url="/img/001/S0006.gif" width="50%"/>
+                    <zone xml:id="ja001" part="s0006" id="s0006">
+                        <graphic url="/img/001/S0006.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0007">
-                        <graphic url="/img/001/S0007.gif" width="50%"/>
+                    <zone xml:id="ja001" part="s0007" id="s0007">
+                        <graphic url="/img/001/S0007.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0008">
-                        <graphic url="/img/001/S0008.gif" width="50%"/>
+                    <zone xml:id="ja001" part="s0008" id="s0008">
+                        <graphic url="/img/001/S0008.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0009">
-                        <graphic url="/img/001/S0009.gif" width="50%"/>
+                    <zone xml:id="ja001" part="s0009" id="s0009">
+                        <graphic url="/img/001/S0009.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0010">
-                        <graphic url="/img/001/S0010.gif" width="50%"/>
+                    <zone xml:id="ja001" part="s0010" id="s0010">
+                        <graphic url="/img/001/S0010.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0011">
-                        <graphic url="/img/001/S0011.gif" width="50%"/>
+                    <zone xml:id="ja001" part="s0011" id="s0011">
+                        <graphic url="/img/001/S0011.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0012">
-                        <graphic url="/img/001/S0012.gif" width="50%"/>
+                    <zone xml:id="ja001" part="s0012" id="s0012">
+                        <graphic url="/img/001/S0012.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0013">
-                        <graphic url="/img/001/S0013.gif" width="50%"/>
+                    <zone xml:id="ja001" part="s0013" id="s0013">
+                        <graphic url="/img/001/S0013.gif"/>
                     </zone>
                 </surface>
             </facsimile>
                 
 
 
-            <div1 id="manuscript" onchange="text();">
-                <div2 n="ja001" type="part" id="t0001">
+            <div1>
+                <div2 n="ja001" type="part" id="s0001">
                     <div3 n="s0001" type="chapter">
                         <p xml:id="ja001" part="s0001" xml:lang="ja">
                             <title xml:lang="ja">
@@ -128,7 +128,7 @@
                 </div2>
                 
                 
-                <div2 n="ja001" type="part" id="t0002">
+                <div2 n="ja001" type="part" id="s0002">
                     <div3 n="s0002" type="chapter">
                         <p xml:id="ja001" part="s0002" xml:lang="ja">
                             <title xml:lang="ja">名詞 固有名詞</title>
@@ -156,7 +156,7 @@
                 </div2>
 
                 
-                <div2 n="ja001" type="part">
+                <div2 n="ja001" type="part" id="s0003">
                     <div3 n="s0003" type="chapter">
                         <p xml:id="ja001" part="s0003" xml:lang="ja">
                             <title xml:lang="ja">［1］固有地名は元則として中性。</title>
@@ -179,7 +179,7 @@
                 </div2>
 
                 
-                <div2 n="ja001" type="part">
+                <div2 n="ja001" type="part" id="s0004">
                     <div3 n="s0004" type="chapter">
                         <p xml:id="ja001" part="s0004" xml:lang="ja">
                             <title xml:lang="ja">［2］二格で =s</title>
@@ -210,7 +210,7 @@
                 </div2>
                         
                 
-                <div2 n="ja001" type="part">
+                <div2 n="ja001" type="part" id="s0005">
                     <div3 n="s0006" type="chapter">
                         <p xml:id="ja001" part="s0006" xml:lang="ja">
                             <title xml:lang="ja">普通名詞の固有名詞扱ひ、無冠詞！</title>
@@ -243,8 +243,11 @@
                 </div2>
 
 
+                <div2 id="s0006">
+                    鋭意制作中
+                </div2>
                 
-                <div2 n="ja001" type="part">
+                <div2 n="ja001" type="part" id="s0007">
                     <div3 n="s0007" type="chapter">
                         <p xml:id="ja001" part="s0007" xml:lang="ja">
                             <cl xml:lang="ja">
@@ -288,7 +291,7 @@
                 </div2>
 
                 
-                <div2 n="ja001" type="part">
+                <div2 n="ja001" type="part" id="s0008">
                     <div3 n="s0008" type="chapter">
                         <p xml:id="ja001" part="s0008" xml:lang="ja">
                             <cl xml:lang="ja">
@@ -313,8 +316,11 @@
                 </div2>
 
 
+                <div2 id="s0009">
+                    鋭意制作中
+                </div2>
                 
-                <div2 n="ja001" type="part">
+                <div2 n="ja001" type="part" id="s0010">
                     <div3 n="s0010" type="chapter">
                         <p xml:id="ja001" part="s0010" xml:lang="ja">
                             <title xml:lang="de">
@@ -342,7 +348,7 @@
                 </div2>
 
 
-                <div2 n="ja001" type="part">
+                <div2 n="ja001" type="part" id="s0011">
                     <div3 n="s0011" type="chapter">
                         <p xml:id="ja001" part="s0011" xml:lang="ja">
                             <title xml:lang="de">
@@ -374,7 +380,7 @@
                     </div3>
                 </div2>
 
-                <div2 n="ja001" type="part">
+                <div2 n="ja001" type="part" id="s0012">
                     <div3 n="s0012" type="chapter">
                         <p xml:id="ja001" part="s0012" xml:lang="ja">
                             <title xml:lang="de">
@@ -426,7 +432,7 @@
                 </div2>
 
 
-                <div2 n="ja001" type="part">
+                <div2 n="ja001" type="part" id="s0013">
                     <div3 n="s0013" type="chapter">
                         <p xml:id="ja001" part="s0013" xml:lang="ja">
                             <title xml:lang="de">
