@@ -37,6 +37,25 @@ tei-lb:before {
   white-space: pre;
   content: "\A";
 }
+tei-surface {
+  float:left;
+  width:50%;
+}
+tei-graphic {
+  content: "img src";
+}
+img {
+  max-width:960px;
+  min-width:240px;
+}
 tei-hi{
   text-decoration: underline;
+}
+tei-surface tei-zone:nth-of-type(n+2) {
+  display: none;
+  float:left;
+  width:50%;
+}
+tei-div1 tei-div2:nth-of-type(n+2) {
+  display: none;
 }
