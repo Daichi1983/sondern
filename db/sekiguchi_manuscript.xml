@@ -229,7 +229,11 @@
                                 </list>
                             </cl>
                             <cl xml:lang="en">
-                                <lb/>英 4.When Father died in 1910 Mother was left with practically no money and us five children.
+                                <lb/>
+                                <div id="en">
+                                    英
+                                </div>
+                                4.When Father died in 1910 Mother was left with practically no money and us five children.
                             </cl>
                             <cl xml:lang="de">
                                 <list rend="index">
@@ -252,7 +256,10 @@
                     <div3 n="s0007" type="chapter">
                         <p xml:id="ja001" part="s0007" xml:lang="ja">
                             <cl xml:lang="ja">
-                                <lb/>蘭語
+                                <lb/>
+                                <div id="nl">
+                                    蘭語
+                                </div>
                             </cl>
                             <cl xml:lang="de">
                                 <lb/>Die Verwandtschaftsnamen werden im Holl. oft als Eigennemen gebraucht. Im Deuschen fügt man in diesem Fall gern den bestimmten Artikel hinzu, im Holl. nicht.
@@ -284,7 +291,11 @@
                             </title>
                                 
                             <cl xml:lang="mhd">
-                                <lb/>MHD dô sprach diu <hi>Hilden</hi> tohter:
+                                <lb/>
+                                <div id="mhd">
+                                    MHD 
+                                </div>
+                                dô sprach diu <hi>Hilden</hi> tohter:
                                 <lb/>(Kudrun 1632)
                             </cl>
                         </p>
@@ -307,7 +318,10 @@
                                     </list>
                             </cl>
                             <cl xml:lang="ja">
-                                <lb/>伊 
+                                <lb/>
+                                <div id="fr">
+                                    佛
+                                </div> 
                             </cl>
                             <cl xml:lang="it">
                                 <lb/><quote>Son vainguer fut <hi>un nommé</hi> Pierre Daval</quote>
@@ -388,7 +402,10 @@
                                 =er (4)
                             </title>
                             <cl xml:lang="de">
-                                <lb/>科Die Leidener (od. Leydener) Flasche ライデン鏝
+                                <lb/>
+                                <div id="other">
+                                    科
+                                </div>Die Leidener (od. Leydener) Flasche ライデン鏝
                                 <lb/>Die Bremer Musikanten.
                                 <lb/>Türinger Wald.
                                 <lb/>Münchener Bier.
@@ -440,7 +457,10 @@
                                 =er
                             </title>
                             <cl xml:lang="ja">
-                                <lb/>NB 國名ではSchweizのみが～erか？
+                                <lb/>
+                                <div id="other">
+                                    NB
+                                </div> 國名ではSchweizのみが～erか？
                             </cl>
                             <cl xml:lang="de">
                                 <list rend="index">
