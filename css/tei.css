@@ -59,3 +59,43 @@ tei-surface tei-zone:nth-of-type(n+2) {
 tei-div1 tei-div2:nth-of-type(n+2) {
   display: none;
 }
+tei-div#en {
+  display: inline-block;
+  float:left;
+  width:2em;
+}
+tei-div#ja{
+  display: inline-block;
+  float:left;
+  width:2em;
+}
+tei-div#de{
+  display: inline-block;
+  float:left;
+  width:2em;
+}
+tei-div#fr{
+  display: inline-block;
+  float:left;
+  width:2em;
+}
+tei-div#mhd{
+  display: inline-block;
+  float:left;
+  width:2em;
+}
+tei-div#nl{
+  display: inline-block;
+  float:left;
+  width:2em;
+}
+tei-div#nb{
+  display: inline-block;
+  float:left;
+  width:2em;
+}
+tei-div#other{
+  display: inline-block;
+  float:left;
+  width:4em;
+}

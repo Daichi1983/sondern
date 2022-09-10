@@ -55,43 +55,43 @@
 
             <facsimile>
                  <surface ulx="0" uly="0" lrx="500" lry="321">
-                   <zone xml:id="ja001" part="s0001" id="s0001">
+                   <zone xml:id="ja001" part="s0001" id="ja001s0001">
                         <graphic url="/img/001/S0001.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0002" id="s0002">
+                    <zone xml:id="ja001" part="s0002" id="ja001s0002">
                         <graphic url="/img/001/S0002.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0003" id="s0003">
+                    <zone xml:id="ja001" part="s0003" id="ja001s0003">
                         <graphic url="/img/001/S0003.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0004" id="s0004">
+                    <zone xml:id="ja001" part="s0004" id="ja001s0004">
                         <graphic url="/img/001/S0004.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0005" id="s0005">
+                    <zone xml:id="ja001" part="s0005" id="ja001s0005">
                         <graphic url="/img/001/S0005.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0006" id="s0006">
+                    <zone xml:id="ja001" part="s0006" id="ja001s0006">
                         <graphic url="/img/001/S0006.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0007" id="s0007">
+                    <zone xml:id="ja001" part="s0007" id="ja001s0007">
                         <graphic url="/img/001/S0007.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0008" id="s0008">
+                    <zone xml:id="ja001" part="s0008" id="ja001s0008">
                         <graphic url="/img/001/S0008.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0009" id="s0009">
+                    <zone xml:id="ja001" part="s0009" id="ja001s0009">
                         <graphic url="/img/001/S0009.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0010" id="s0010">
+                    <zone xml:id="ja001" part="s0010" id="ja001s0010">
                         <graphic url="/img/001/S0010.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0011" id="s0011">
+                    <zone xml:id="ja001" part="s0011" id="ja001s0011">
                         <graphic url="/img/001/S0011.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0012" id="s0012">
+                    <zone xml:id="ja001" part="s0012" id="ja001s0012">
                         <graphic url="/img/001/S0012.gif"/>
                     </zone>
-                    <zone xml:id="ja001" part="s0013" id="s0013">
+                    <zone xml:id="ja001" part="s0013" id="ja001s0013">
                         <graphic url="/img/001/S0013.gif"/>
                     </zone>
                 </surface>
@@ -100,7 +100,7 @@
 
 
             <div1>
-                <div2 n="ja001" type="part" id="s0001">
+                <div2 n="ja001" type="part" id="ja001s0001">
                     <div3 n="s0001" type="chapter">
                         <p xml:id="ja001" part="s0001" xml:lang="ja">
                             <title xml:lang="ja">
@@ -128,7 +128,7 @@
                 </div2>
                 
                 
-                <div2 n="ja001" type="part" id="s0002">
+                <div2 n="ja001" type="part" id="ja001s0002">
                     <div3 n="s0002" type="chapter">
                         <p xml:id="ja001" part="s0002" xml:lang="ja">
                             <title xml:lang="ja">名詞 固有名詞</title>
@@ -156,7 +156,7 @@
                 </div2>
 
                 
-                <div2 n="ja001" type="part" id="s0003">
+                <div2 n="ja001" type="part" id="ja001s0003">
                     <div3 n="s0003" type="chapter">
                         <p xml:id="ja001" part="s0003" xml:lang="ja">
                             <title xml:lang="ja">［1］固有地名は元則として中性。</title>
@@ -179,7 +179,7 @@
                 </div2>
 
                 
-                <div2 n="ja001" type="part" id="s0004">
+                <div2 n="ja001" type="part" id="ja001s0004">
                     <div3 n="s0004" type="chapter">
                         <p xml:id="ja001" part="s0004" xml:lang="ja">
                             <title xml:lang="ja">［2］二格で =s</title>
@@ -210,12 +210,12 @@
                 </div2>
                         
                 
-                <div2 id="s0005">
+                <div2 id="ja001s0005">
                     鋭意制作中
                 </div2>
 
 
-                <div2 n="ja001" type="part" id="s0006">
+                <div2 n="ja001" type="part" id="ja001s0006">
                     <div3 n="s0006" type="chapter">
                         <p xml:id="ja001" part="s0006" xml:lang="ja">
                             <title xml:lang="ja">普通名詞の固有名詞扱ひ、無冠詞！</title>
@@ -252,7 +252,7 @@
                 </div2>
 
                 
-                <div2 n="ja001" type="part" id="s0007">
+                <div2 n="ja001" type="part" id="ja001s0007">
                     <div3 n="s0007" type="chapter">
                         <p xml:id="ja001" part="s0007" xml:lang="ja">
                             <cl xml:lang="ja">
@@ -303,7 +303,7 @@
                 </div2>
 
                 
-                <div2 n="ja001" type="part" id="s0008">
+                <div2 n="ja001" type="part" id="ja001s0008">
                     <div3 n="s0008" type="chapter">
                         <p xml:id="ja001" part="s0008" xml:lang="ja">
                             <cl xml:lang="ja">
@@ -323,7 +323,7 @@
                                     佛
                                 </div> 
                             </cl>
-                            <cl xml:lang="it">
+                            <cl xml:lang="fr">
                                 <lb/><quote>Son vainguer fut <hi>un nommé</hi> Pierre Daval</quote>
                             </cl>
                         </p>
@@ -331,11 +331,11 @@
                 </div2>
 
 
-                <div2 id="s0009">
+                <div2 id="ja001s0009">
                     鋭意制作中
                 </div2>
                 
-                <div2 n="ja001" type="part" id="s0010">
+                <div2 n="ja001" type="part" id="ja001s0010">
                     <div3 n="s0010" type="chapter">
                         <p xml:id="ja001" part="s0010" xml:lang="ja">
                             <title xml:lang="de">
@@ -363,7 +363,7 @@
                 </div2>
 
 
-                <div2 n="ja001" type="part" id="s0011">
+                <div2 n="ja001" type="part" id="ja001s0011">
                     <div3 n="s0011" type="chapter">
                         <p xml:id="ja001" part="s0011" xml:lang="ja">
                             <title xml:lang="de">
@@ -395,7 +395,7 @@
                     </div3>
                 </div2>
 
-                <div2 n="ja001" type="part" id="s0012">
+                <div2 n="ja001" type="part" id="ja001s0012">
                     <div3 n="s0012" type="chapter">
                         <p xml:id="ja001" part="s0012" xml:lang="ja">
                             <title xml:lang="de">
@@ -450,7 +450,7 @@
                 </div2>
 
 
-                <div2 n="ja001" type="part" id="s0013">
+                <div2 n="ja001" type="part" id="ja001s0013">
                     <div3 n="s0013" type="chapter">
                         <p xml:id="ja001" part="s0013" xml:lang="ja">
                             <title xml:lang="de">
@@ -458,7 +458,7 @@
                             </title>
                             <cl xml:lang="ja">
                                 <lb/>
-                                <div id="other">
+                                <div id="nb">
                                     NB
                                 </div> 國名ではSchweizのみが～erか？
                             </cl>
