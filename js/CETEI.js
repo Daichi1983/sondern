@@ -183,6 +183,7 @@ var CETEI = (function () {
       "graphic": function(elt) {
         let content = new Image();
         content.src = this.rw(elt.getAttribute("url"));
+        window.stop();
         content.classList.add('lazy');
         content.setAttribute('loading', 'lazy');
         if (elt.hasAttribute("width")) {
