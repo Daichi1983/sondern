@@ -183,6 +183,8 @@ var CETEI = (function () {
       "graphic": function(elt) {
         let content = new Image();
         content.src = this.rw(elt.getAttribute("url"));
+        content.classList.add('lazy');
+        content.setAttribute('loading', 'lazy');
         if (elt.hasAttribute("width")) {
           content.setAttribute("width",elt.getAttribute("width"));
         }
@@ -222,7 +224,7 @@ var CETEI = (function () {
           }
           let id = "_note_" + this.noteIndex;
           let link = document.createElement("a");
-          link.setAttribute("id", "src" + id);
+          link.setAttribute("id", "data_src" + id);
           link.setAttribute("href", "#" + id);
           link.innerHTML = this.noteIndex;
           let content = document.createElement("sup");

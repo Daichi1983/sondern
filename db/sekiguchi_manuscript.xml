@@ -56,43 +56,43 @@
             <facsimile>
                  <surface ulx="0" uly="0" lrx="500" lry="321">
                    <zone xml:id="ja001" part="s0001" id="ja001s0001">
-                        <graphic url="/img/001/S0001.gif"/>
+                        <graphic url="https://sondern.netlify.app/img/001/S0001.gif"/>
                     </zone>
                     <zone xml:id="ja001" part="s0002" id="ja001s0002">
-                        <graphic url="/img/001/S0002.gif"/>
+                        <graphic url="https://sondern.netlify.app/img/001/S0002.gif"/>
                     </zone>
                     <zone xml:id="ja001" part="s0003" id="ja001s0003">
-                        <graphic url="/img/001/S0003.gif"/>
+                        <graphic url="https://sondern.netlify.app/img/001/S0003.gif"/>
                     </zone>
                     <zone xml:id="ja001" part="s0004" id="ja001s0004">
-                        <graphic url="/img/001/S0004.gif"/>
+                        <graphic url="https://sondern.netlify.app/img/001/S0004.gif"/>
                     </zone>
                     <zone xml:id="ja001" part="s0005" id="ja001s0005">
-                        <graphic url="/img/001/S0005.gif"/>
+                        <graphic url="https://sondern.netlify.app/img/001/S0005.gif"/>
                     </zone>
                     <zone xml:id="ja001" part="s0006" id="ja001s0006">
-                        <graphic url="/img/001/S0006.gif"/>
+                        <graphic url="https://sondern.netlify.app/img/001/S0006.gif"/>
                     </zone>
                     <zone xml:id="ja001" part="s0007" id="ja001s0007">
-                        <graphic url="/img/001/S0007.gif"/>
+                        <graphic url="https://sondern.netlify.app/img/001/S0007.gif"/>
                     </zone>
                     <zone xml:id="ja001" part="s0008" id="ja001s0008">
-                        <graphic url="/img/001/S0008.gif"/>
+                        <graphic url="https://sondern.netlify.app/img/001/S0008.gif"/>
                     </zone>
                     <zone xml:id="ja001" part="s0009" id="ja001s0009">
-                        <graphic url="/img/001/S0009.gif"/>
+                        <graphic url="https://sondern.netlify.app/img/001/S0009.gif"/>
                     </zone>
                     <zone xml:id="ja001" part="s0010" id="ja001s0010">
-                        <graphic url="/img/001/S0010.gif"/>
+                        <graphic url="https://sondern.netlify.app/img/001/S0010.gif"/>
                     </zone>
                     <zone xml:id="ja001" part="s0011" id="ja001s0011">
-                        <graphic url="/img/001/S0011.gif"/>
+                        <graphic url="https://sondern.netlify.app/img/001/S0011.gif"/>
                     </zone>
                     <zone xml:id="ja001" part="s0012" id="ja001s0012">
-                        <graphic url="/img/001/S0012.gif"/>
+                        <graphic url="https://sondern.netlify.app/img/001/S0012.gif"/>
                     </zone>
                     <zone xml:id="ja001" part="s0013" id="ja001s0013">
-                        <graphic url="/img/001/S0013.gif"/>
+                        <graphic url="https://sondern.netlify.app/img/001/S0013.gif"/>
                     </zone>
                 </surface>
             </facsimile>

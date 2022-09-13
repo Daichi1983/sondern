@@ -41,9 +41,6 @@ tei-surface {
   float:left;
   width:50%;
 }
-tei-graphic {
-  content: "img src";
-}
 img {
   max-width:960px;
   min-width:240px;
