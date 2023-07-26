@@ -223,3 +223,165 @@ ren *.txt *.js
 |Publish directory |Not set |
 |Deploy log |visibility Logs are public |
 |Builds |Active |
+
+## XMLファイル構築の手続き
+
+XMLファイルでText Encoding Initiativeに準拠したデータベースを検討しています。まずは文例集のディレクトリごとに分けていたファイルを整理します。
+
+```python
+import glob
+
+# ファイルの一覧を取得する
+file_list = glob.glob("*.js")
+
+# ファイルを一つにまとめる
+with open("088all.txt", "w", encoding="utf-8") as outfile:
+    for file_name in file_list:
+        with open(file_name, "r", encoding="utf-8") as infile:
+            outfile.write(infile.read())
+```
+
+出来上がったテキストファイルは同じディレクトリに入れます。次に全体を一覧できる目次ファイルを作ります。
+
+```python
+import glob
+
+# ファイルの一覧を取得する
+file_list = glob.glob("*.txt")
+
+# ファイルを一つにまとめる
+with open("all.txt", "w", encoding="utf-8") as outfile:
+    for file_name in file_list:
+        with open(file_name, "r", encoding="utf-8") as infile:
+            outfile.write(infile.read())
+```
+
+そうしてExcelで成形すると表が出来上がりました。
+
+|分類番号 | 分類題目 | 総目次ページ |
+|:---|:---|:---|
+|1 | 名詞 Substantiv | 1 |
+|2 | 名詞の型 Substantivtypen | 3 |
+|3 | 性と数 Genus und Numerus | 4 |
+|4 | 格支配 Rektion | 7 |
+|5 | 1格 Nominativ | 8 |
+
+## XMLファイルの構造決定
+
+XMLファイルでデータベースを作るにあたっては、構造設計をしないといけません。関口の文例集の場合は大きな分冊があって、その中に小項目が書かれていくという書き方がされているので、それに従ってクラス分けをしていきます。
+
+なぜか最初に入っていたのでこれだけは入れておきます。
+
+```HTML
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ja">
+    <teiHeader xml:lang="ja">
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sekiguchi Manuscript
+                </title>
+                <author>
+                    Tsugio Sekiguchi
+                </author>
+                <respStmt>
+                    <resp>
+                        reprinter and editor
+                    </resp>
+                    <name>
+                        Daichi Uchibori
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    for use by whoever wants it
+                </p>
+                <authority> Tsugio Sekiguchi </authority> 
+                <pubPlace> Tokyo </pubPlace> 
+                <date> 1930-1958 </date> 
+            </publicationStmt>
+            <notesStmt> 
+                <note>大阪大学所蔵の関口存在男文例集のスキャンデータ</note> 
+                <note>Scan data of Sekiguhi Manuscript from Osaka University</note> 
+            </notesStmt>
+            <sourceDesc>
+                <p>
+                    created on Wwednesday 19th July 2023 08:44:00 PM
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>
+                Manuscripts written and collected by Tsugio Sekiguchi<lb/>
+                Handschriften, geschrieben und gesammelt von Tsugio Sekiguchi<lb/>
+            </head>
+            <schemaSpec ident="sekiguchi_manuscript" docLang="ja" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+            </schemaSpec>
+```
+
+エクセル等表計算ソフトでちょっと整形して、数時間でそこそこのものができました。
+
+```HTML
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ja">
+<teiHeader xml:lang="ja">
+<fileDesc>
+<titleStmt>
+<title> Sekiguchi Manuscript </title>
+<author> Tsugio Sekiguchi </author>
+<respStmt>
+<resp> reprinter and editor </resp>
+<name> Daichi Uchibori </name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<p> for use by whoever wants it </p>
+<authority> Tsugio Sekiguchi </authority>
+<pubPlace> Tokyo </pubPlace>
+<date> 1930-1958 </date>
+</publicationStmt>
+<notesStmt>
+<note>大阪大学所蔵の関口存在男文例集のスキャンデータ</note>
+<note>Scan data of Sekiguhi Manuscript from Osaka University</note>
+</notesStmt>
+<sourceDesc>
+<p> created on Wwednesday 19th July 2023 08:44:00 PM </p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<head>
+Manuscripts written and collected by Tsugio Sekiguchi
+<lb/>
+Handschriften, geschrieben und gesammelt von Tsugio Sekiguchi
+<lb/>
+</head>
+<schemaSpec ident="sekiguchi_manuscript" docLang="ja" prefix="tei_" xml:lang="en">
+<moduleRef key="core" except=""/>
+<moduleRef key="tei" except=""/>
+<moduleRef key="header" except=""/>
+<moduleRef key="textstructure" except=""/>
+</schemaSpec>
+<msItem n="1">
+<locus from="1" to="2">SS.1-2</locus>
+<title type="main">名詞 Substantiv</title>
+<div1 n="01-1B">
+<title type="sub">固有名詞でもあり普通名詞でもあり</title>
+<locus from="1" to="1">S1</locus>
+<graphic url="https://sondern.netlify.app/img/001/S0001.gif"/>
+</div1>
+<div1 n="01-2B">
+<title type="sub">固有名詞</title>
+<locus from="2" to="49">SS2-49</locus>
+<graphic url="https://sondern.netlify.app/img/001/S0002.gif"/>
+</div1>
+
+```
