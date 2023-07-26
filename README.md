@@ -383,5 +383,4 @@ Handschriften, geschrieben und gesammelt von Tsugio Sekiguchi
 <locus from="2" to="49">SS2-49</locus>
 <graphic url="https://sondern.netlify.app/img/001/S0002.gif"/>
 </div1>
-
 ```
