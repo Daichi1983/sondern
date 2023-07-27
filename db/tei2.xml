@@ -1,7 +1,50 @@
 <?xml-model href="tei_all_ja_20191012_4.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:eaj="http://www.example.org/ns/ejaTEI">
-<msItem n="1"><locus from="1" to="2">SS.1-2</locus><title type='main'>名詞 Substantiv</title><div1 n='01-1B'><title type='sub'>固有名詞でもあり普通名詞でもあり</title><locus from='1' to='1'>S1</locus><surface xml:id='1-1'><graphic url='https://sondern.netlify.app/img/001/S0001.gif' /></surface>
-</div1><div1 n='01-2B'><title type='sub'>固有名詞</title><locus from='2' to='49'>SS2-49</locus><surface xml:id='1-2'><graphic url='https://sondern.netlify.app/img/001/S0002.gif' /></surface>
+<msItem n="1"><locus from="1" to="2">SS.1-2</locus><title type='main'>名詞 Substantiv</title><div1 n='01-1B'><title type='sub'>固有名詞でもあり普通名詞でもあり</title><locus from='1' to='1'>S1</locus><surface xml:id='1-1'><graphic url='https://sondern.netlify.app/img/001/S0001.gif' />
+    <zone>
+        <line>固有名詞でもあり普通名詞でもあり:</line>
+        <list rend="numbered">
+        <item>平原名（地理）→</item>
+        <item>帝王名</item>
+        <item>風名</item>
+        <item>人名</item>
+        </list>
+        
+        <line>平原</line>
+        <line>Die Pampas. Die Llianos. Die Steppe. Tundra, -en. Wüste,</line>
+        
+        <line>Die Gauchos reiten tagelang über die Llianos.</line>
+        <line>南米アマゾン以北の平原</line>
+        <line>ヤノス（中）</line>
+        <line>ジャノス（南）</line>
+        <line>リャノス（北）</line>
+        </zone>
+</surface>
+</div1><div1 n='01-2B'><title type='sub'>固有名詞</title><locus from='2' to='49'>SS2-49</locus><surface xml:id='1-2'><graphic url='https://sondern.netlify.app/img/001/S0002.gif' />
+    <zone>
+        <line>名詞 固有名詞</line>
+        <list rend="numbered">
+            <item n="12">ging Deutschlandの問題は形容の●●●●●●●</item>
+            <item n="13">「誰彼」の意に任意の固有名詞を用ふ<lb />－指示用</item>
+        </list>
+        
+        <list rend="numbered">
+            <item>固有の［1］</item>
+            <item>Theseus' Stadt等は「名詞、各変化」</item>
+            <item>不定冠詞の場合は不定冠詞の項</item>
+            <item>ein Davinci等</item>
+            <item>Durch das Hessische等</item>
+            <item>固有名と定冠詞（地名、人名）</item>
+            <item><metamark rend="underline">à la</metamark> Kaiserの問題も加ふ可し。</item>
+            <item>mendeln, marsen等、動詞</item>
+            <item>「ein Bechstein m, ピヤノ」等は「性數」</item>
+            <item>固有名として普通名を假に用ひる場合</item>
+            <item>（Freund Hain等の項）（Drei Käsehah等）</item>
+            <item>固有人名のpl.は複數の冊</item>
+        </list>
+    </zone>
+
+</surface>
 </div1><div1 n='01-2B'><title type='sub'>［01］固有地名は原則として中性</title><locus from='3' to='3'>S3</locus><surface xml:id='1-3'><graphic url='https://sondern.netlify.app/img/001/S0003.gif' /></surface>
 </div1><div1 n='01-2B'><title type='sub'>［02］ニ格で=es</title><locus from='4' to='4'>S4</locus><surface xml:id='1-4'><graphic url='https://sondern.netlify.app/img/001/S0004.gif' /></surface>
 <surface xml:id='1-5'><graphic url='https://sondern.netlify.app/img/001/S0005.gif' /></surface>
