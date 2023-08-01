@@ -1,30 +1,30 @@
-<?xml-model href="tei_all_ja_20191012_4.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:eaj="http://www.example.org/ns/ejaTEI">
 <msItem n="1"><locus from="1" to="2">SS.1-2</locus><title type='main'>名詞 Substantiv</title><div1 n='01-1B'><title type='sub'>固有名詞でもあり普通名詞でもあり</title><locus from='1' to='1'>S1</locus><surface xml:id='1-1'><graphic url='https://sondern.netlify.app/img/001/S0001.gif' />
     <zone>
-        <line>固有名詞でもあり普通名詞でもあり:</line>
-        <list rend="numbered">
-        <item>平原名（地理）→</item>
-        <item>帝王名</item>
-        <item>風名</item>
-        <item>人名</item>
-        </list>
-        
-        <line>平原</line>
-        <line>Die Pampas. Die Llianos. Die Steppe. Tundra, -en. Wüste,</line>
-        
-        <line>Die Gauchos reiten tagelang über die Llianos.</line>
-        <line>南米アマゾン以北の平原</line>
-        <line>ヤノス（中）</line>
-        <line>ジャノス（南）</line>
-        <line>リャノス（北）</line>
-        </zone>
+        <p>
+            固有名詞でもあり普通名詞でもあり:
+            <list rend="numbered">
+            <item>平原名（地理）→</item>
+            <item>帝王名</item>
+            <item>風名</item>
+            <item>人名</item>
+            </list>
+            平原 die Pampas. Die <metamark rend="underline">Llianos</metamark>. Die Steppe. Tundra, -en. <add>Wüste,</add>
+            <lb/>Die Gauchos reiten tagelang über die Llianos.
+            <add>南米アマゾン以北の平原
+            <lb />ヤノス（中） 
+            <lb />ジャノス（南）
+            <lb />リャノス（北）
+            </add>
+            </p>
+    </zone>
 </surface>
 </div1><div1 n='01-2B'><title type='sub'>固有名詞</title><locus from='2' to='49'>SS2-49</locus><surface xml:id='1-2'><graphic url='https://sondern.netlify.app/img/001/S0002.gif' />
     <zone>
         <line>名詞 固有名詞</line>
         <list rend="numbered">
-            <item n="12">ging Deutschlandの問題は形容の●●●●●●●</item>
+            <item n="12">ging Deutschlandの問題は形容の<gap quantity="8" unit="chars" reason="illegible"/></item>
             <item n="13">「誰彼」の意に任意の固有名詞を用ふ<lb />－指示用</item>
         </list>
         
@@ -43,19 +43,118 @@
             <item>固有人名のpl.は複數の冊</item>
         </list>
     </zone>
-
 </surface>
-</div1><div1 n='01-2B'><title type='sub'>［01］固有地名は原則として中性</title><locus from='3' to='3'>S3</locus><surface xml:id='1-3'><graphic url='https://sondern.netlify.app/img/001/S0003.gif' /></surface>
-</div1><div1 n='01-2B'><title type='sub'>［02］ニ格で=es</title><locus from='4' to='4'>S4</locus><surface xml:id='1-4'><graphic url='https://sondern.netlify.app/img/001/S0004.gif' /></surface>
-<surface xml:id='1-5'><graphic url='https://sondern.netlify.app/img/001/S0005.gif' /></surface>
-<surface xml:id='1-6'><graphic url='https://sondern.netlify.app/img/001/S0006.gif' /></surface>
-<surface xml:id='1-7'><graphic url='https://sondern.netlify.app/img/001/S0007.gif' /></surface>
-</div1><div1 n='01-2B'><title type='sub'>［03］Unter den Lindenの格変化</title><locus from='8' to='8'>S8</locus><surface xml:id='1-8'><graphic url='https://sondern.netlify.app/img/001/S0008.gif' /></surface>
-</div1><div1 n='01-2B'><title type='sub'>［04］=e</title><locus from='9' to='9'>S9</locus><surface xml:id='1-9'><graphic url='https://sondern.netlify.app/img/001/S0009.gif' /></surface>
-<surface xml:id='1-10'><graphic url='https://sondern.netlify.app/img/001/S0010.gif' /></surface>
-<surface xml:id='1-11'><graphic url='https://sondern.netlify.app/img/001/S0011.gif' /></surface>
-<surface xml:id='1-12'><graphic url='https://sondern.netlify.app/img/001/S0012.gif' /></surface>
-<surface xml:id='1-13'><graphic url='https://sondern.netlify.app/img/001/S0013.gif' /></surface>
+
+
+</div1><div1 n='01-2B'><title type='sub'>［01］固有地名は原則として中性</title><locus from='3' to='3'>S3</locus><surface xml:id='1-3'><graphic url='https://sondern.netlify.app/img/001/S0003.gif' />
+    <zone>
+        <list rend="numbered">
+        <item>1. Ich machte bei dieser Gelegenheit die Bemerkung: Berlin ist ein groß<metamark rend="underline">es</metamark> Krähwinkel.
+        <lb/>（Winkelは男性なるに）Heine Briefe aus Berlin</item>
+        </list>
+        
+        <lg><l>（英 she） the Japanese delegation declared that Japan has an intention of renouncing <metamark rend="underline">her</metamark> claim and that <metamark rend="underline">she</metamark> will have the conference rather than accept what <metamark rend="underline">she</metamark> does not want. (Z.)</l></lg>
+        
+        <lg>
+            <l>Das ist übrigens von der Natur ganz weise so eingerichtet, der lebiglich dadurch, daßman die Lebensleiter nur auf dem Umweg über die untersten Stufen erklimmt, <metamark rend="underline">lernt man, wie einem da unten zumute ist. Dies ist wichtig für später, wenn man höher hinauf gelangt ist.</metamark></l>
+            <l><metamark rend="underline">Du kannst dich also drehen und wenden wie du willst, um den Moses kommst du nicht herum.</metamark> Beim Kaufmann muß der Moses Tüten kleben, der Gelehrtenmoses muß im stillen Kämmerlein mühsam die Geistesbröcklein sammeln und sich einpacken. Beide <metamark rend="underline">haben oft die Nase voll.</metamark> Bei uns ist es ähnlich, mit dem einzigen Untersched, daß es bei uns mehrere <metamark rend="underline">Mosese</metamark> gibt, so daß sich die Arbeit verteilt und darum leichter fällt. Zudem weden deutsche Soldaten nie schlecht behandelt. Im Gegentail, hier ist es die heilige Pflicht des älteren, für den Tüngeren zu sorgen.</l>
+            <l>Trotzdem aber, mein Leiber, denke ja nicht, daß der U-Boot-Moses immer mit seinem Geschick zufrieden ist. Auch er hat, wie aesaat, sein Dasein oft reichlich satt und müchte in seiner Verzweiflung manchmal die Hoffnung aufgeben, jemals noch etwas zu werden bei der Marine. Hier scheiden sich dann die Gutn und die Schlechten. Denn <metamark rend="underline">wer was taugt der beißt sich hindurch</metamark> durch diese scheinbar unerträglichen Augenblicke. <metamark rend="underline">Auch wir haben das alles durchmachen müssen</metamark> und wissen, daß man im Leben Haare auf den Zähnen haben muß, um sein Ziel zu erreichen.</l>
+        </lg>
+    </zone>
+</surface>
+</div1><div1 n='01-2B'><title type='sub'>［02］ニ格で=s</title><locus from='4' to='4'>S4</locus><surface xml:id='1-4'><graphic url='https://sondern.netlify.app/img/001/S0004.gif' />
+    <list rend="numbered">
+        <item>1. Glocken <metamark rend="underline">Berlins</metamark> verkündeten mit ehernem Munde den gewaltigen Sieg <metamark rend="underline">Hindenburgs</metamark>. (Ury)</item>
+        <item>2.Durch Jahrhunderte blieb nun <metamark rend="underline">die Sprache</metamark><gap quantity="8" unit="chars" reason="illegible"/></item>
+        <item n="2">2. in Europa erst recht das Ausdrie*** mittel für Geist und die redende Künste.(Johannes Bühler, Die Kultur Des Millelalters I.) </item>
+        <item>4.Die Ukraine ist die Kornkammer Rußlands?</item>
+        <item>5.der mongolische Prinz Teh soll ein direkter Nachkomme <metamark rend="underline">Dschingis Khans</metamark> sein. (Z. 1937)</item>
+        <item>6.<gap quantity="4" unit="chars" reason="illegible"/></item>
+        <item>7.（所有的二格以外の場合も然り） Nur <metamark rend="underline">Lea's</metamark> erwähnte er mit keiner Silbe. (Hauft: Jud Süß, 7.) 
+        <lb/>PARADIGMA</item>
+        <item>8.<metamark rend="underline">Shakespear</metamark> wurde im Todesjahr <metamark rend="underline">Michelangelos</metamark> geboren.</item>
+    </list>
+</surface>
+</div1>
+<surface xml:id='1-5'><graphic url='https://sondern.netlify.app/img/001/S0005.gif' />
+</surface>
+<div1 n='01-2B'><title type='sub'><metamark rend="underline">普通名詞の固有名詞扱ひ、</metamark>無冠詞！</title><surface xml:id='1-6'><graphic url='https://sondern.netlify.app/img/001/S0006.gif' />
+    <list rend="numbered">
+        <item>1. (Präsidents) Aber der größe Teil der Conversation am andern Ende de<del>r</del>s Tisches galt <metamark rend="underline">Präsidents</metamark> Ida. (Hauff: Der <del>Mond</del> Mann im Monde I) </item>
+        <item>2. Das wohl, Ich mag alle Tiere leiden, obgleich <metamark rend="underline">Tante</metamark> mirs nicht glauben will. <metamark rend="underline">Tantes</metamark> Hunde sind ein bißchen ungeyogen und dann - (L. Westkirch: Aus dem Hexenkessel der Zeit)</item>
+        <item>3. <metamark rend="underline">Mutters</metamark> Bargeld ist immer knapp. 
+        <lb/>(%) <metamark rend="underline">Vater</metamark> lag es viel daran, dass wir rechtzeitig zum Frühstück herunterkamen. </item>
+        <item>英4.When F<metamark rend="underline">ather</metamark> died in 1910 M<metamark rend="underline">other</metamark> was left with practically no money and us five children. (RERalph Moody: Man of the Family) </item>
+        <item>5. <metamark rend="underline">Mutters</metamark> Geburstsag. (DUDEN)</item>
+        <item>6. ruf mal Mutter(n)l (DUDEN)</item>
+        <item>7. Unter neuen Hurrahs entführte der Zug den hohen Durchreisenden, und wir hatten <metamark rend="underline">Geschichte</metamark> gesehen. (Th. Mann. Meine Zeit) 幼時 Wilhelm der Erste を Lübeck で見た話。 
+        <lb/>（9）頁 </item>
+        <item>8. FRITZ: Gibbt der <metamark rend="underline">Großvatern</metamark> viel Geld? (Die Weber, II)</item>
+    </list>
+</surface>
+</div1><div1 n='01-2B'><title type='sub'>蘭語：</title><surface xml:id='1-7'><graphic url='https://sondern.netlify.app/img/001/S0007.gif' /></surface>
+    <lg><l>Die Verwandtschaftsnamen werden im Holl. oft als Eigennemen gebraucht. Im Deushhen fügt man in diesem Fall gern den bestimmten Artikel hinzu, im Holl. nicht.</l></lg>
+    <lb/>Der Vater ruft. vader roept.
+    <lb/>Ich gehe zum Onkel. ik gaa naar oom.
+    <lb/> zur Tante.  naar tante.
+    <lb/>Das habe ich vom Großvater bekommen:
+    <lb/>vader roept. Dat heb ik van grootvader gekregen.
+    <head>Hildeの二格<lb/>Hild<metamark rend="underline">en</metamark>等</head>
+    MHD
+    <list rend="numbered">
+        <item>dô sprach diu Hilden tohter: (Kudrun 1632)</item>
+    </list>
+</div1><div1 n='01-2B'><title type='sub'>［03］<del>un</del> <metamark rend="underline">Unter den Linden</metamark>の格変化</title><locus from='8' to='8'>S8</locus><surface xml:id='1-8'><graphic url='https://sondern.netlify.app/img/001/S0008.gif' />
+    <list rend="nunmbered">
+        <item>1. Wollen wir nachmittags Unter den Linden gehen? (IV)</item>
+        <item>2. Er geht Unter den Linden spazieren. (III)</item>
+        <item>3. Ausserdem wurde eine neue Straßen: und Lau<gap quantity="8" unit="chars" reason="illegible"/> auf der <gap quantity="8" unit="chars" reason="illegible"/> <metamark rend="underline">zwischen den Linden</metamark> und der <gap quantity="16" unit="chars" reason="illegible"/> (Z. 1939)</item>
+    </list>
+    <head><metamark rend="underline">Ein gewisser</metamark> Herr ～</head>
+    <lg><l>佛 Son vainguer fut <metamark rend="underline">un nommé</metamark> Pierre Daval.
+    <lb/>(M. Leblam: Une femme.)</l></lg>
+</surface>
+</div1><div1 n='01-2B'><title type='sub'>［04］=er</title><locus from='9' to='9'>S9</locus><surface xml:id='1-9'><graphic url='https://sondern.netlify.app/img/001/S0009.gif' /></surface>
+</div1><div1 n='01-2B'><title type='sub'>Jan<metamark rend="underline">enser</metamark> statt Janaer</title><surface xml:id='1-10'><graphic url='https://sondern.netlify.app/img/001/S0010.gif' />
+    <list rend="numbered">
+        <item>1. Goethe hat einen leidlich gelungenen Ursuch gemacht, für die Weimarer Literaten und die <metamark rend="underline">Janenser</metamark> Gelehrten einen ausgleichenden mittelpunkt zu schaffen. (Johannes Scherr: Menschliche Tragikomödie)</item>
+        <item>2. Die 1 1/2 Jahre in <metamark rend="underline">Halle</metamark> waren für mich eine Zeit schöner förderlicher Arbeit. Für die nötige Erholung sorgte eine rege Gesellingkeit und einiger Sport. Sehr erfreulich awr auch der Hallenser Referendarvverein, in dem wir noch mano mal in studentischer Art fröhlich waren.<lb/>(Robert Hippel, in "Rechtswissenschaft in Selbstdarstellungen)</item>
+    </list>
+<head>Takaier等、酒名</head>
+    <list rend="numbered">
+        <item>1. Den odlen Hochheimer, Bacheracher und Klingenberger gossen sie mit Kübelmässigen Gläsern in Magen hinunter. (Simplizissimus 1. 30)</item>
+        <item>2. An solchen Tagen floß auf der Hauptwache (Stadtgarde) eiteöl <metamark rend="underline">Rüdesheimer</metamark> und <metamark rend="underline">Aßmannahäuser</metamark> von den vortrefflichsten Jahrgängen, (Heine, Memoiren)</item>
+    </list>
+</surface>
+</div1><div1 n='01-2B'><title type='sub'>Berlin=er (2)</title><surface xml:id='1-11'><graphic url='https://sondern.netlify.app/img/001/S0011.gif' />
+    <p>Verlängerter Weihnachtsurlaub Bonn, 27. Dezember (UP). Der Bundeskanyler wird voraussichtlich erst nach Neujahr seine Amtsgeschäfte im <metamark rend="underline">Bonner</metamark> Palais Schaumburg wiederaufnehmen. Wie am Dienstag aus Regierungskreisen mitgeteilt wurde, will sich der Bundeskanzler bis dahin in seinem <metamark rend="underline">Rhöndorfer</metamark> Heim im Familienkreise noch einige Tage der Ruhe gönnen.</p>
+    <p>NB schweizerischが公式で Schweizerは通俗</p>
+    <list rend="numbered">
+        <item n="7">7. der schweizerische Botschafter (nicht: der Schweizer Botschafter) aber: der Schweizer Käse. Schweizer Kühe. <metamark rend="underline">Schweizerdeutsch</metamark>. Schweizerland. Schweizerhäuschen.</item>
+        <item n="8">8. Sófià (Bulgarien首都) sofiater～とあり。</item>
+        <item n="9">9.Kandia = (Kreta) Kandiote, Kandiat) Kandiater</item>
+    </list>
+</surface>
+</div1><div1 n='01-2B'><title tupe='sub'>=er (1)</title><surface xml:id='1-12'><graphic url='https://sondern.netlify.app/img/001/S0012.gif' />
+    <p>科Die Leidener (od. Leydener) Flasche ライデン鏝
+    <lb/>Die Bremer Musikanten. Türinger Wald<del>e</del>. Münchener Bier. Göttinger Universtät Züricher See Leipziger Messe Teutoburger Wald Londoner Konferenz Pariser Wiener Tokioer, Tokioter Der Londoner Flugplatz Croydon. des Heidelberger Schloß Chungkinger Regierung. Nankinger Nationalregierung.die Schwarzwälder Uhr. der Genfer Völkerbund. die Tannenberger Schlacht. die Moskauer Regierung. Anhalter Bahnhof. Schweizer Heidelberger Schloss? Die Hamburger Dramaturgie Leipziger Straße</p>
+    <list rend="numbered">
+        <item>1.Der Honoluluer "Star Bulletin" veröffentlicht den Augenzeugenbericht eines Ueberlebenden des britischen Dampfers "Delphin", der diesem Bericht zufolge bei der Einfahrt in Lyttelton Harbour auf Neuseeland durch britische Festungsgeschütze irrtümlich versenkt wurde. (Z. 1939. Nov.)</item>
+        <item>2.Einer Washingtoner nachricht zufolge machte das Marine amt der Vereinigten Staaten am Sonntag bekannt, dass nipponische Kampfflugzeuge am Freitagabend die 19 Meilen nördlich von der Insel Guadalcanar liegende Insel Savo bombardierten. (Z. 1943,)</item>
+        <item>3.Es ist das unsterbliche Verdienst des Heilbronner Arztes Robert Mayer, durch scharfsinnige Deduktionen nachgewiesen zu haben (1842), dass die Umwandlung von mechanischer Arbeit in Wärme stets nach unwandelbaren Gesetzen erfolgt. (W. Guttmann: Grundriß der Physik)</item>
+        <item>4.Meinen ersten Unterricht erhield ich in einer Berliner Realschule. (Paul Krüger, Jurist)</item>
+        <item>5.>Ich bin ein Zürcher Buchhandlungsgehilfe. Z. 1952.> LIES MIT. ("* statt Züricher) 例外： Zür(i)cher</item>
+    </list>
+</surface>
+</div1><div1 n='01-2B'><title type='sub'>=er</title><surface xml:id='1-13'><graphic url='https://sondern.netlify.app/img/001/S0013.gif' />
+    <p>NB國名ではSchweizのみが～erか？</p>
+    <list rend="numbered">
+        <item>1.Die <metamark rend="underline">Schweizer</metamark> Mount-Everst-Expedition 1952.</item>
+        <item>2.住民の=erは別紙</item>
+        <head>英 America → America<metamark rend="underline">n</metamark></head>
+        <item>1.The <metamark rend="underline">Incan</metamark> empire. (Inca, South America)</item>
+    </list>
+</surface>
 </div1><div1 n='01-2B'><title type='sub'>［05］=sch</title><locus from='14' to='14'>S14</locus><surface xml:id='1-14'><graphic url='https://sondern.netlify.app/img/001/S0014.gif' /></surface>
 <surface xml:id='1-15'><graphic url='https://sondern.netlify.app/img/001/S0015.gif' /></surface>
 <surface xml:id='1-16'><graphic url='https://sondern.netlify.app/img/001/S0016.gif' /></surface>
