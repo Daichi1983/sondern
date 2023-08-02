@@ -24628,13 +24628,97 @@
 </div1><div1 n='87-3R'><title type='sub'>（30）関係代名詞</title><locus from='27' to='27'>S27</locus><surface xml:id='87-27'><graphic url='https://sondern.netlify.app/img/087/S0027.gif' /></surface>
 </div1><div1 n='87-3R'><title type='sub'>（32）G0LDENE WORTE</title><locus from='28' to='28'>S28</locus><surface xml:id='87-28'><graphic url='https://sondern.netlify.app/img/087/S0028.gif' /></surface>
 </div1><div1 n='87-3R'><title type='sub'>（34）テキス卜着想</title><locus from='29' to='29'>S29</locus><surface xml:id='87-29'><graphic url='https://sondern.netlify.app/img/087/S0029.gif' /></surface>
-</div1></msItem><msItem n="88"><locus from="276" to="277">SS.276-277</locus><title type='main'>雑（２） Verschiedenes - II</title><div1 n='88-11R'><title type='sub'>（1）Ausprägung sich herausbilden<br />（Vollentwicklung）</title><locus from='1' to='12'>SS1-12</locus><surface xml:id='88-1'><graphic url='https://sondern.netlify.app/img/088/S0001.gif' /></surface>
-<surface xml:id='88-2'><graphic url='https://sondern.netlify.app/img/088/S0002.gif' /></surface>
-<surface xml:id='88-3'><graphic url='https://sondern.netlify.app/img/088/S0003.gif' /></surface>
-<surface xml:id='88-4'><graphic url='https://sondern.netlify.app/img/088/S0004.gif' /></surface>
-<surface xml:id='88-5'><graphic url='https://sondern.netlify.app/img/088/S0005.gif' /></surface>
-<surface xml:id='88-6'><graphic url='https://sondern.netlify.app/img/088/S0006.gif' /></surface>
-<surface xml:id='88-7'><graphic url='https://sondern.netlify.app/img/088/S0007.gif' /></surface>
+</div1></msItem><msItem n="88"><locus from="276" to="277">SS.276-277</locus><title type='main'>雑（２） Verschiedenes - II</title><div1 n='88-11R'><title type='sub'>（1）Ausprägung sich herausbilden<br />（Vollentwicklung）</title><locus from='1' to='12'>SS1-12</locus><surface xml:id='88-1'><graphic url='https://sondern.netlify.app/img/088/S0001.gif' />
+<head>Ausprägung</head>
+<list rend='numbered'>
+    <item>定形あるいは、文を含む定形、あるいは文のUrformがsich herausbildenする。</item>
+    <item>Vollentwickeltesから見よ。</item>
+    <item>Vollentwickelungは往々にしてヤボな「概念性」をとる。これを軽蔑する勿れ！　こゝに元来の問題がある。</item>
+</list>
+<lg>
+    <l>
+        die Moralität Bei einzelhen Individuen mehr nach eine Seite, bei andern mehr nach einer andern Richtung <metamark rend='underline'>ausgeprägt</metamark> ist.
+        <lb/>(Eduart Jung. Das konstitutive Prinzip in der organischen Natur)
+    </l>
+    <l>
+        sich aus ragen
+        <lb/>sich aus bilden
+    </l>
+</lg>
+</surface>
+<surface xml:id='88-2'><graphic url='https://sondern.netlify.app/img/088/S0002.gif' />
+<head>文法形態</head>
+<lg>
+    <l>
+        第一、品詞の発見
+        <lb/>第二、定形中心論
+        <lb/>第三、動詞中心論
+    </l>
+</lg>
+<head>（１）定形はそれ自体が文章である。</head>
+<list rend='numbered'>
+    <item>但し、K.は然らず</item>
+    <item>Der ganze Oberbau ist vor Verbum finitum <metamark rend='underline'>getragen</metamark>. Er ist nur auf dieses hin <metamark rend='underline'>verständlich</metamark>.</item>
+</list>
+</surface>
+<surface xml:id='88-3'><graphic url='https://sondern.netlify.app/img/088/S0003.gif' />
+<head>（２）「動詞」と「定形」とはちがう。</head>
+<list rend='numbered'>
+    <item>助動詞を用いる構<del>成</del>造。</item>
+    <item>動詞は（不定形でも過去分詞でも）文制<add>機構かまえ</add>を要求するが、定形は必ずしも要求しない。（こゝに二つの機能のために二つの形態があることがわかる）</item>
+    <item>助動詞を用いる時は、動詞（不定形）は名詞として考えられる（adverbal）。過分、現分詞は形容詞（即ち間節には名詞、ad<del>nom</del>verbal）として考えられる。</item>
+    <item>命令法でよくわかる。yuk=e!　は=e=が定形で、yuk=は動詞である。</item>
+</list>
+</surface>
+<surface xml:id='88-4'><graphic url='https://sondern.netlify.app/img/088/S0004.gif' />
+<head>（３）機構要求が動詞の本質なること</head>
+<lg>
+    <l>補足要求（Ergänzung） sich ausbliedern.
+    <lb/>動詞以外には、規定機能はある
+    <lb/>が、機構要求はない。
+    </l>
+</lg>
+<list>
+    <item>impatiens jugi, ähnlichなどの「支配」も、実は動詞的に考えられるのがVollentwicklung.</item>
+    <item>nomen actionisも然り。</item>
+    <item>動詞は→〇←、ほかの品詞は←〇←</item>
+    <item>機構要求とは、規定要求である。</item>
+    <item>動詞は<add>數方面から</add>規定されることを要求し、名詞は<add>一方から</add>規定<add>され、一方へと規定する</add><del>する</del>ことを要求する。</item>
+    <item>補足機構は結晶のごとし　　構出</item>
+</list>
+</surface>
+<surface xml:id='88-5'><graphic url='https://sondern.netlify.app/img/088/S0005.gif' />
+<head>構出と構入</head>
+<list>
+    <item>Pliut → il pluit → il tombe de la pluie 雨が降る<lb/>〇　　〇←□？　〇←□</item>
+    <item>計画する、経始する。</item>
+</list>
+</surface>
+<surface xml:id='88-6'><graphic url='https://sondern.netlify.app/img/088/S0006.gif' />
+<head>
+    文法形態は意味関係に関係なし
+</head>
+<list rend='numbered'>
+    <item>たとえばIch höre<del>n</del> einen / hund auschlagenは
+    <lb/>Ich1 → eunen Hund2 → höre ← auschlagen3
+    <lb/>であって、２と３の間には形態上の関係なし。
+    <lb/>einen Hund <del>auschlagen</del>をauschlagenの主語とみるのは、意味形態の問題であって、文法形態ではない。</item>
+    <item>ich hören ihn <metamark rend='underline'>ein Lied</metamark> singenは
+    <lb/>N Ich → ihn →　höre - singen ← ein Lied A</item>
+</list>
+</surface>
+<surface xml:id='88-7'><graphic url='https://sondern.netlify.app/img/088/S0007.gif' />
+<head><del>定形</del>動詞に構入される文形の圖示法（２）</head>
+<list rend='numbered'>
+    <item>Die tritt nur gang solten<metamark rend='underline'>in die Erscheinung.</metamark>
+    <lb/>Du → <metamark rend='underline'>nur gang solten</metamark> → tritt ← <metamark rend='underline'>in die Erscheinung</metamark>
+    <lb/>あるいは
+    <lb/>Die → <metamark rend='underline'>tritt in die Erscheinung</metamark> ← <metamark rend='underline'>nur ganz solten</metamark></item>
+    <item>Ich höre ihn <metamark rend='underline'>ein Lied</metamark> singen.
+    <lb/>となると</item>
+</list>
+<l>Ich → höre ein Lied <del>sing</del>singen ← ihn</l>
+</surface>
 <surface xml:id='88-8'><graphic url='https://sondern.netlify.app/img/088/S0008.gif' /></surface>
 <surface xml:id='88-9'><graphic url='https://sondern.netlify.app/img/088/S0009.gif' /></surface>
 <surface xml:id='88-10'><graphic url='https://sondern.netlify.app/img/088/S0010.gif' /></surface>
