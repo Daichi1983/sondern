@@ -24719,10 +24719,94 @@
 </list>
 <l>Ich → höre ein Lied <del>sing</del>singen ← ihn</l>
 </surface>
-<surface xml:id='88-8'><graphic url='https://sondern.netlify.app/img/088/S0008.gif' /></surface>
-<surface xml:id='88-9'><graphic url='https://sondern.netlify.app/img/088/S0009.gif' /></surface>
-<surface xml:id='88-10'><graphic url='https://sondern.netlify.app/img/088/S0010.gif' /></surface>
-<surface xml:id='88-11'><graphic url='https://sondern.netlify.app/img/088/S0011.gif' /></surface>
-<surface xml:id='88-12'><graphic url='https://sondern.netlify.app/img/088/S0012.gif' /></surface>
+<surface xml:id='88-8'><graphic url='https://sondern.netlify.app/img/088/S0008.gif' />
+<head>支配</head>
+<list rend='numbered'>
+    <item>支配は必ず被限者から限者へと行われる
+        <lb/>a. 動詞が目的語の格を
+        <lb/>b. 動詞が前置詞を
+        <lb/>c. 前置詞が名詞の格を
+        <lb/>d. 名詞の性・格が形容詞の語尾の性・格を
+        <lb/>e. 形容詞が、それを規定する名詞の格を
+        <lb/>f. schönenがalsを
+        <lb/>g. Nomen actionisも動詞の如く
+        <lb/>h. getötet werdenはwerdenがgetötetを支配する
+        <lb/>「未来」だと不定形を支配
+        <lb/>i. 數詞、量詞の二格支配
+    </item>
+    <item>
+        例外
+        <lb/>a. haben, sein支配！
+        <lb/>b. 定形の語尾（人称語尾）
+    </item>
+</list>
+
+<zone>
+    <line>
+        備考（１）sein支配について
+        <lb/><gap quantity="2" unit="chars" reason="illegible"/>はist...が完結相動詞の<gap quantity="6" unit="chars" reason="illegible"/>を支配するのである。
+    </line>
+</zone>
+</surface>
+<surface xml:id='88-9'><graphic url='https://sondern.netlify.app/img/088/S0009.gif' />
+<head>規定とは</head>
+<list rend='numbered'>
+    <item>
+        規定とは内容を作ること。
+        <lb/>（内容を<metamark rend='underline'>充たすこと</metamark>、即ち、既に形式として待ち構えてゐるところの空部を充たすことである。）
+        <lb/>その空部<del>を</del>の形式を決定して、充足を待つことを支配といふ。
+    </item>
+</list>
+<head>冠詞という現象</head>
+<lg>
+    <l>
+        ◎限定関係の変則である
+        <lb/>意味形態としては冠詞（または指示詞）が被限者でなくてはならないのに、文法形態としてはその逆の表現をする。
+        <lb/>この関係はetwas gutes等にも現れる。また數詞の二格支配にも現れる。
+    </l>
+    <l>
+        ◎dieser Bleist istにも<gap quantity="4" unit="chars" reason="illegible"/>の齟齬が根原にある。（これは却々むつかしい問題である。）
+    </l>
+</lg>
+</surface>
+<surface xml:id='88-10'><graphic url='https://sondern.netlify.app/img/088/S0010.gif' />
+<head>文法形態と意味形態との齟齬</head>
+<list rend='numbered'>
+    <item>移轍</item>
+    <item>冠詞、指示詞</item>
+    <item>Gesprungenes Huf!</item>
+    <item>変態的述語</item>
+    <item>否定詞</item>
+</list>
+<zone>
+    <line>日本語に訳すると<metamark rend='underline'>不妥当</metamark>になるというのは、すべてこれ。</line>
+</zone>
+</surface>
+<surface xml:id='88-11'><graphic url='https://sondern.netlify.app/img/088/S0011.gif' />
+<head>- ADNOMINAL -</head>
+<p>Apposition</p>
+<list rend='numbered'>
+    <item><metamark rend='underline'>Prix</metamark> <metamark rend='underline'>Nobel</metamark> <metamark rend='underline'>litteraire</metamark> <metamark rend='underline'>1952</metamark>.
+    <lb/>= Prix ← Nobel ← Litt. ← 1952</item>
+</list>
+</surface>
+<surface xml:id='88-12'><graphic url='https://sondern.netlify.app/img/088/S0012.gif' />
+<head>Adnominalの既定の分類</head>
+<list rend='numbered'>
+    <item>GEN</item>
+    <item>von.</item>
+    <item>前置詞</item>
+    <item>副詞</item>
+    <item>Apposition</item>
+    <item>文章のApposition</item>
+    <item>接續詞（daßのみに非ず）</item>
+    <item>形容詞</item>
+    <item>冠飾詞</item>
+    <item>接続法（間接話法）</item>
+    <item>zu + 不定法</item>
+    <item>述語句</item>
+    <item>関係文</item>
+    <item>冠詞と指示詞（意味形態トノ齟齬）</item>
+</surface>
 </div1></msItem>
 </TEI>
