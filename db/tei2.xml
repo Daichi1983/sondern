@@ -24791,7 +24791,9 @@
 </list>
 </surface>
 <surface xml:id='88-12'><graphic url='https://sondern.netlify.app/img/088/S0012.gif' />
-<head>Adnominalの既定の分類</head>
+<head>
+    Adnominalの既定の分類
+</head>
 <list rend='numbered'>
     <item>GEN</item>
     <item>von.</item>
